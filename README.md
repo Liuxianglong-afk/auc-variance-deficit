@@ -7,7 +7,7 @@ Data and analysis code for a meta-research study of published imaging prediction
 - `data/radiomics/`, `data/dl/`: PubMed search pools (`pool_pmids.json`: query, search date, PMIDs), AUC values extracted from abstracts (`auc_values.csv`), study-level internal–external pairs (`pairs.csv`), pairs whose intervals were taken from PMC full text (`pairs_ft.csv`, `pairs_ft_stat.json`) and cohort sizes (`pairs_with_n.csv`).
 - `data/radiomics_FT/`, `data/dl_FT/`: abstract and full-text pairs combined; these are the analysis samples (radiomics k = 181, deep learning k = 66, rows with `headline == True` and `comp == "int_ext"`).
 - `code/`: scripts numbered in the order they are run.
-- `results/`: outputs of steps 05–12.
+- `results/`: outputs of steps 05–13.
 
 Each row of the extracted data carries the PMID and the source sentence, so every value can be checked against the original article. Abstracts and full texts are not redistributed; steps 01, 04 and 06 download them from PubMed and PMC.
 
@@ -37,6 +37,7 @@ python -I code/09_expected_r_high.py
 python -I code/10_sensitivity.py
 python -I code/11_threshold_sorting_symmetry.py
 python -I code/12_selection_simulation.py
+python -I code/13_dl_vs_radiomics.py
 ```
 
 All resampling and simulation use seed 42. Re-running the extraction steps can give slightly different pools if PubMed records have changed since the search date.

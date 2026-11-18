@@ -1,0 +1,28 @@
+{
+ "title": "Data and code: variance deficit in internal–external AUC differences of imaging prediction models",
+ "upload_type": "software",
+ "description": "Data and analysis code for a meta-research study of published imaging prediction models that report both an internal and an external validation AUC with 95% confidence intervals.",
+ "creators": [
+  {
+   "name": "Liu, Xianglong"
+  },
+  {
+   "name": "Zhao, Xin"
+  },
+  {
+   "name": "Yang, Jinze"
+  },
+  {
+   "name": "Zhang, Xiaoan"
+  },
+  {
+   "name": "Wang, Xueyuan"
+  }
+ ],
+ "keywords": [
+  "radiomics",
+  "external validation",
+  "selective reporting",
+  "meta-research"
+ ]
+}

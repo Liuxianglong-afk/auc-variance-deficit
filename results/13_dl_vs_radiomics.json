@@ -1,0 +1,99 @@
+{
+ "radiomics": {
+  "k": 181,
+  "mean_d": 0.0251,
+  "median_d_iqr": [
+   0.02,
+   -0.003,
+   0.05
+  ],
+  "se_d_median_iqr": [
+   0.062,
+   0.043,
+   0.082
+  ],
+  "share_ext_ge_int": 0.298,
+  "R_all": 0.523,
+  "n_abs_d_gt_0.3": 0,
+  "R_all_excl_abs_d_gt_0.3": 0.523,
+  "R_low": 1.608,
+  "tau": 0.0288,
+  "expected_R_high": 1.091,
+  "R_high": 0.316,
+  "obs_over_expected_R_high": 0.29,
+  "obs_over_expected_ci95": [
+   0.162,
+   0.439
+  ],
+  "share_boot_ratio_lt1": 1.0,
+  "tertile_sizes": [
+   60,
+   60,
+   61
+  ]
+ },
+ "DL": {
+  "k": 66,
+  "mean_d": 0.0462,
+  "median_d_iqr": [
+   0.036,
+   0.001,
+   0.071
+  ],
+  "se_d_median_iqr": [
+   0.043,
+   0.026,
+   0.066
+  ],
+  "share_ext_ge_int": 0.258,
+  "R_all": 1.802,
+  "n_abs_d_gt_0.3": 1,
+  "R_all_excl_abs_d_gt_0.3": 1.125,
+  "R_low": 24.461,
+  "tau": 0.0952,
+  "expected_R_high": 2.344,
+  "R_high": 0.784,
+  "obs_over_expected_R_high": 0.334,
+  "obs_over_expected_ci95": [
+   0.097,
+   0.957
+  ],
+  "share_boot_ratio_lt1": 0.98,
+  "tertile_sizes": [
+   22,
+   22,
+   22
+  ]
+ },
+ "note": "tertiles by pd.qcut of SE_d as in 08_variance_ratio.py; bootstrap 5,000, seed 42, tertile membership fixed",
+ "sensitivity_excl_abs_d_gt_0.3": {
+  "radiomics": {
+   "k": 181,
+   "R_all": 0.523,
+   "R_low": 1.608,
+   "tau": 0.0288,
+   "expected_R_high": 1.091,
+   "R_high": 0.316,
+   "obs_over_expected_R_high": 0.29,
+   "obs_over_expected_ci95": [
+    0.162,
+    0.439
+   ],
+   "share_boot_ratio_lt1": 1.0
+  },
+  "DL": {
+   "k": 65,
+   "R_all": 1.125,
+   "R_low": 7.739,
+   "tau": 0.0535,
+   "expected_R_high": 1.424,
+   "R_high": 0.784,
+   "obs_over_expected_R_high": 0.551,
+   "obs_over_expected_ci95": [
+    0.165,
+    1.154
+   ],
+   "share_boot_ratio_lt1": 0.9424
+  }
+ }
+}
