@@ -1,0 +1,544 @@
+pmid,sent,pos,auc,lo,hi,ci_ok,label,cohort,model_txt,model_cls
+32485640,7,0,0.924,0.889,0.959,True,,unk,FINDINGS: The AUC of ModelLBC for FLLs was,imaging
+32549190,8,0,0.887,0.849,0.924,True,internal test,int,"In the internal test, the mean area under the curve discriminating submucosal invasion was",imaging
+32549190,9,0,0.887,0.863,0.91,True,external test,ext,"In the external test, the mean area under the curve reached",imaging
+33042271,7,0,0.8848,0.8185,0.9512,True,,unk,Results: The EPLA model achieved an area-under-the-curve (AUC) of,imaging
+33042271,7,1,0.8504,0.7591,0.9323,True,external validation,ext,Results: The EPLA model achieved an area-under-the-curve (AUC) of,imaging
+33237903,7,0,0.863,0.852,0.875,True,,unk,"With regard to the determination of malignancy, the area under the curve (AUC) achieved by the algorithm was",clinical
+33399858,11,0,0.946,0.927,0.965,True,,unk,The PMetNet model achieved an AUC of,imaging
+33399858,12,0,0.92,0.848,0.992,True,external validation,ext,"In external validation cohort 2, the AUC was",imaging
+33875452,6,0,0.984,0.976,0.993,True,,unk,RESULTS: The DL algorithm achieved an AUC of,imaging
+33875452,7,0,0.957,0.944,0.97,True,external test,ext,"In addition, performance analysis of a publicly available external test set (n=968) had an AUC of",clinical
+33875452,7,1,0.978,0.97,0.986,True,external test,ext,"In addition, performance analysis of a publicly available external test set (n=968) had an AUC of",clinical
+34114091,8,0,0.798,0.789,0.807,True,internal,int,"With 50 times iterations of model training and validation, the model achieved an AUC of 0.811 (95% confidence interval (CI) of 0.803-0.819) and",imaging
+34350409,5,0,0.91,0.88,0.94,True,,unk,RESULTS: The AUCs for pneumothorax detection for external institutions A-F were,imaging
+34350409,5,1,0.97,0.94,0.99,True,,unk,RESULTS: The AUCs for pneumothorax detection for external institutions A-F were,imaging
+34350409,5,2,0.91,0.85,0.97,True,,unk,RESULTS: The AUCs for pneumothorax detection for external institutions A-F were,imaging
+34350409,5,3,0.98,0.96,1.0,True,,unk,RESULTS: The AUCs for pneumothorax detection for external institutions A-F were,imaging
+34350409,5,4,0.97,0.95,0.99,True,,unk,RESULTS: The AUCs for pneumothorax detection for external institutions A-F were,imaging
+34350409,5,5,0.92,0.9,0.95,True,,unk,RESULTS: The AUCs for pneumothorax detection for external institutions A-F were,imaging
+34350409,5,6,0.93,0.92,0.93,True,,unk,RESULTS: The AUCs for pneumothorax detection for external institutions A-F were,imaging
+34350409,6,0,0.88,0.85,0.91,True,,unk,"The model had lower performance for small compared with large pneumothoraces (AUC,",imaging
+34350409,6,1,0.96,0.95,0.97,True,,unk,"The model had lower performance for small compared with large pneumothoraces (AUC,",imaging
+34350409,8,0,0.95,0.92,0.97,True,,unk,"Model performance was not different when a chest tube was present or absent on the radiographs (AUC,",imaging
+34350409,8,1,0.94,0.92,0.05,False,,unk,"Model performance was not different when a chest tube was present or absent on the radiographs (AUC,",imaging
+34365472,6,0,0.887,0.855,0.919,True,internal test,int,"RESULTS: AI system achieved high performance in identifying HCC patients, with AUROC of",imaging
+34365472,6,1,0.883,0.855,0.911,True,external test,ext,"RESULTS: AI system achieved high performance in identifying HCC patients, with AUROC of",imaging
+34656880,6,0,0.8,0.79,0.81,True,test,int,"FINDINGS: On the held-out test set of Stanford patients not previously seen during model training, EchoNet-Labs achieved an AUC of",imaging
+34656880,6,1,0.86,0.85,0.88,True,,unk,"FINDINGS: On the held-out test set of Stanford patients not previously seen during model training, EchoNet-Labs achieved an AUC of",imaging
+34656880,6,2,0.75,0.73,0.78,True,,unk,"FINDINGS: On the held-out test set of Stanford patients not previously seen during model training, EchoNet-Labs achieved an AUC of",imaging
+34656880,6,3,0.74,0.72,0.76,True,,unk,"FINDINGS: On the held-out test set of Stanford patients not previously seen during model training, EchoNet-Labs achieved an AUC of",imaging
+34656880,7,0,0.8,0.77,0.82,True,external test,ext,"On the external test dataset from Cedars-Sinai, EchoNet-Labs achieved an AUC of",imaging
+34656880,7,1,0.82,0.79,0.84,True,external test,ext,"On the external test dataset from Cedars-Sinai, EchoNet-Labs achieved an AUC of",imaging
+34656880,7,2,0.75,0.72,0.78,True,external test,ext,"On the external test dataset from Cedars-Sinai, EchoNet-Labs achieved an AUC of",imaging
+34656880,7,3,0.69,0.66,0.71,True,external test,ext,"On the external test dataset from Cedars-Sinai, EchoNet-Labs achieved an AUC of",imaging
+34790732,7,0,0.829,0.77,0.879,True,external,ext,"For the external data set, the VGG-16T model achieved an area under the curve (AUC) of",imaging
+34790732,7,1,0.705,0.659,0.801,True,external,ext,"For the external data set, the VGG-16T model achieved an area under the curve (AUC) of",imaging
+34790732,7,2,0.725,0.653,0.797,True,external,ext,"For the external data set, the VGG-16T model achieved an area under the curve (AUC) of",imaging
+34790732,7,3,0.66,0.584,0.736,True,external,ext,"For the external data set, the VGG-16T model achieved an area under the curve (AUC) of",imaging
+34873672,9,0,0.96,0.91,1.0,True,,unk,The deep learning score was the most significant predictor of progression (area under the receiver operating characteristic curve =,imaging
+34873672,10,0,0.9,0.74,1.0,True,independent test,ext,An additional assessment of an independent test set confirmed high performance (area under the receiver operating characteristic curve =,imaging
+35070762,10,0,0.836,0.811,0.862,True,,unk,The AUCs of doctors were significantly improved with the assistance of SSNet in both 4-category and 3-category classifications to,imaging
+35070762,10,1,0.852,0.825,0.882,True,,unk,The AUCs of doctors were significantly improved with the assistance of SSNet in both 4-category and 3-category classifications to,imaging
+35143286,6,0,0.899,0.853,0.935,True,test,int,"RESULTS: In the test cohort, CNN achieved an area under the curve of",imaging
+35471108,9,0,0.92,0.86,0.97,True,,unk,"Results The fusion model had higher AUCs than did the IMPACT model in the prediction of mortality (AUC,",combined
+35471108,9,1,0.8,0.71,0.88,True,,unk,"Results The fusion model had higher AUCs than did the IMPACT model in the prediction of mortality (AUC,",combined
+35471108,10,0,0.88,0.82,0.94,True,,unk,"P < .001) and unfavorable outcomes (AUC,",imaging
+35471108,10,1,0.82,0.75,0.9,True,,unk,"P < .001) and unfavorable outcomes (AUC,",imaging
+35887524,6,0,0.871,0.747,0.995,True,,unk,Algorithm 2 had an AUC of,imaging
+35928032,10,0,0.986,0.977,0.995,True,,unk,The SMTN yielded an area under the receiver operating characteristic curve (AUC) values of,imaging
+35928032,10,1,0.902,0.856,0.948,True,,unk,The SMTN yielded an area under the receiver operating characteristic curve (AUC) values of,imaging
+35928032,10,2,0.957,0.924,0.99,True,training,train,The SMTN yielded an area under the receiver operating characteristic curve (AUC) values of,imaging
+35936706,7,0,0.678,0.564,0.792,True,external validation,ext,"On external validation dataset, our GCN model achieved the AUC score of",imaging
+36060588,14,0,0.803,0.709,0.878,True,,unk,The area under the receiver operating curve (AUC) of the Inception-v3 model was,imaging
+36087795,10,0,0.83,0.79,0.88,True,,unk,"The presence of contrast resulted in a small reduction in diagnostic accuracy, with the AUC falling from",imaging
+36161827,7,0,0.99,0.92,1.0,True,internal validation,int,"On internal validation, the AUC of the CFDLS was",imaging
+36161827,8,0,0.97,0.93,0.99,True,external validation,ext,"On external validation, the AUC was",imaging
+36230723,6,0,0.67,0.61,0.72,True,,unk,"The overall AUC was 0.68 (95% CIs 0.64−0.72) for all women,",imaging
+36230723,6,1,0.7,0.65,0.76,True,,unk,"The overall AUC was 0.68 (95% CIs 0.64−0.72) for all women,",imaging
+36395737,5,0,0.73,0.58,0.86,True,internal validation,int,The area under the curve (AUC) of the deep learning score to predict MPR was,imaging
+36395737,5,1,0.72,0.58,0.85,True,external validation,ext,The area under the curve (AUC) of the deep learning score to predict MPR was,imaging
+36409497,7,0,0.85,0.84,0.87,True,,unk,The CEM model achieved an AUROC of,imaging
+36414984,6,0,0.927,0.891,0.963,True,,unk,"RESULTS: The SUAS yielded a favourable performance in predicting pCR, with areas under the receiver operating characteristic curve (AUCs) of",imaging
+36414984,6,1,0.914,0.853,0.976,True,,unk,"RESULTS: The SUAS yielded a favourable performance in predicting pCR, with areas under the receiver operating characteristic curve (AUCs) of",imaging
+36414984,6,2,0.734,0.665,0.804,True,,unk,"RESULTS: The SUAS yielded a favourable performance in predicting pCR, with areas under the receiver operating characteristic curve (AUCs) of",imaging
+36414984,6,3,0.61,0.504,0.716,True,,unk,"RESULTS: The SUAS yielded a favourable performance in predicting pCR, with areas under the receiver operating characteristic curve (AUCs) of",imaging
+36414984,6,4,0.632,0.57,0.693,True,,unk,"RESULTS: The SUAS yielded a favourable performance in predicting pCR, with areas under the receiver operating characteristic curve (AUCs) of",imaging
+36414984,6,5,0.724,0.644,0.804,True,external test,ext,"RESULTS: The SUAS yielded a favourable performance in predicting pCR, with areas under the receiver operating characteristic curve (AUCs) of",imaging
+36414984,7,0,0.874,0.793,0.955,True,,unk,"Furthermore, similar results were also observed in the early-stage treatment of NAC [AUC",imaging
+36414984,7,1,0.897,0.851,0.943,True,external test,ext,"Furthermore, similar results were also observed in the early-stage treatment of NAC [AUC",imaging
+36513751,4,0,0.85,0.83,0.86,True,internal,int,The AUCs of the DL algorithm for the internal and external test sets were,imaging
+36513751,4,1,0.86,0.78,0.93,True,external test,ext,The AUCs of the DL algorithm for the internal and external test sets were,imaging
+36513751,4,2,0.8,0.73,0.87,True,external test,ext,The AUCs of the DL algorithm for the internal and external test sets were,imaging
+36513751,4,3,0.75,0.68,0.82,True,,unk,The AUCs of the DL algorithm for the internal and external test sets were,imaging
+36565376,6,0,0.9708,0.8772,0.9849,True,external test,ext,"area under the receiver operating characteristic curves of the EfficientNet-B7 model on the internal test set, external test set A and external test set B were",imaging
+36565376,6,1,1.0,1.0,1.0,True,,unk,"area under the receiver operating characteristic curves of the EfficientNet-B7 model on the internal test set, external test set A and external test set B were",imaging
+36565376,6,2,0.9683,0.8829,0.977,True,,unk,"area under the receiver operating characteristic curves of the EfficientNet-B7 model on the internal test set, external test set A and external test set B were",imaging
+36565376,6,3,1.0,0.9975,1.0,True,,unk,"area under the receiver operating characteristic curves of the EfficientNet-B7 model on the internal test set, external test set A and external test set B were",imaging
+36565376,6,4,0.8919,0.715,0.9055,True,,unk,"area under the receiver operating characteristic curves of the EfficientNet-B7 model on the internal test set, external test set A and external test set B were",imaging
+36565376,6,5,0.9977,0.9165,1.0,True,,unk,"area under the receiver operating characteristic curves of the EfficientNet-B7 model on the internal test set, external test set A and external test set B were",imaging
+36566995,6,0,0.81,0.74,0.88,True,,unk,diogram artificial intelligence models had high discriminatory abilities in predicting zero CAC (receiver operating characteristic area under the curve [AUC] =,imaging
+36566995,7,0,0.75,0.65,0.85,True,external test,ext,This performance was confirmed in an external test data set of 92 TTEs (AUC =,imaging
+36566995,7,1,0.85,0.76,0.93,True,,unk,This performance was confirmed in an external test data set of 92 TTEs (AUC =,imaging
+36634294,6,0,0.92,0.88,0.95,True,,unk,RESULTS: Sybil achieved area under the receiver-operator curves for lung cancer prediction at 1 year of,imaging
+36634294,6,1,0.86,0.82,0.9,True,,unk,RESULTS: Sybil achieved area under the receiver-operator curves for lung cancer prediction at 1 year of,imaging
+36634294,6,2,0.94,0.91,1.0,True,external validation,ext,RESULTS: Sybil achieved area under the receiver-operator curves for lung cancer prediction at 1 year of,imaging
+36648346,6,0,0.85,0.84,0.86,True,,unk,"Model 3, which included DL predictions, significantly improved discrimination of those with the composite outcome compared with models 2 and 1 (AUC,",imaging
+36648346,6,1,0.76,0.74,0.77,True,,unk,"Model 3, which included DL predictions, significantly improved discrimination of those with the composite outcome compared with models 2 and 1 (AUC,",imaging
+36733368,2,0,0.929,0.888,0.97,True,internal test,int,"RESULTS: In the internal test set, the area under the receiver operating characteristic curve (AUROC) was",imaging
+36733368,2,1,0.76,0.653,0.867,True,internal test,int,"RESULTS: In the internal test set, the area under the receiver operating characteristic curve (AUROC) was",imaging
+36733368,2,2,0.815,0.778,0.853,True,internal test,int,"RESULTS: In the internal test set, the area under the receiver operating characteristic curve (AUROC) was",imaging
+36733368,3,0,0.896,0.847,0.945,True,external test,ext,"In the external test set, the best-performing DL model had AUROC values of",imaging
+36733368,3,1,0.754,0.649,0.85,True,external test,ext,"In the external test set, the best-performing DL model had AUROC values of",imaging
+36733368,3,2,0.833,0.797,0.869,True,external test,ext,"In the external test set, the best-performing DL model had AUROC values of",imaging
+36788316,6,0,0.88,0.88,0.89,True,internal testing,int,Area Under Receiver Operating Characteristic curve (AUROC) is,imaging
+36788316,6,1,0.81,0.8,0.82,True,external validation,ext,Area Under Receiver Operating Characteristic curve (AUROC) is,imaging
+36788316,8,0,0.89,0.88,0.89,True,internal testing,int,AUROC is,imaging
+36788316,8,1,0.86,0.85,0.87,True,external validation,ext,AUROC is,imaging
+36812559,6,0,0.85,0.85,0.86,True,,unk,"cations, obesity, congestive heart failure, arrhythmias, vascular disease, and chronic obstructive pulmonary disease, had a total area under ROC curve (AUC) of",imaging
+36812559,7,0,0.84,0.79,0.88,True,,unk,The ROC AUC of predicted mortality for the model was,combined
+36896175,7,0,0.812,0.794,0.83,True,training,train,The area under the curve (AUC) for the nomogram to predict CLNM was,imaging
+36896175,7,1,0.809,0.78,0.837,True,internal validation,int,The area under the curve (AUC) for the nomogram to predict CLNM was,imaging
+36896175,7,2,0.829,0.785,0.872,True,external validation,ext,The area under the curve (AUC) for the nomogram to predict CLNM was,imaging
+36949511,6,0,0.986,0.971,1.0,True,internal validation,int,"he full-automatic DL model was established in the training cohort to stratify the MMR status, which presented promising discriminative ability with the AUCs of",imaging
+36949511,6,1,0.915,0.87,0.96,True,external validation,ext,"he full-automatic DL model was established in the training cohort to stratify the MMR status, which presented promising discriminative ability with the AUCs of",imaging
+36999810,12,0,0.901,0.836,0.953,True,,unk,The automatic two-step EfficientNet model detected splenic injury with an AUROC of,imaging
+37060446,6,0,0.996,0.995,0.996,True,,unk,"The best performance was obtained using the 2.5D DL model, which achieved an AUC of",imaging
+37060446,6,1,0.958,0.958,0.96,True,,unk,"The best performance was obtained using the 2.5D DL model, which achieved an AUC of",imaging
+37060446,6,2,0.952,0.951,0.953,True,,unk,"The best performance was obtained using the 2.5D DL model, which achieved an AUC of",imaging
+37127660,5,0,0.76,0.75,0.77,True,external,ext,"erformance in the external cohort is observed for short-term prediction - in the first six months after the scan, mean cAUC for ACS and all-cause death reaches",imaging
+37127660,5,1,0.78,0.78,0.79,True,,unk,"erformance in the external cohort is observed for short-term prediction - in the first six months after the scan, mean cAUC for ACS and all-cause death reaches",imaging
+37187961,11,0,0.963,0.927,0.985,True,,unk,The DL model identified type A fractures with an AUC of,imaging
+37187961,11,1,0.95,0.867,0.989,True,,unk,The DL model identified type A fractures with an AUC of,imaging
+37187961,11,2,0.991,0.967,0.999,True,,unk,The DL model identified type A fractures with an AUC of,imaging
+37187961,11,3,0.989,0.93,1.0,True,,unk,The DL model identified type A fractures with an AUC of,imaging
+37187961,11,4,1.0,0.975,1.0,True,,unk,The DL model identified type A fractures with an AUC of,imaging
+37187961,11,5,1.0,0.897,1.0,True,test,int,The DL model identified type A fractures with an AUC of,imaging
+37197521,7,0,1.0,1.0,1.0,True,test,int,"teristic curve (AUC) of each structure in the training data set, optimal performance in the test data set, and median AUC of each structure identification were",imaging
+37197521,7,1,1.0,1.0,1.0,True,,unk,"teristic curve (AUC) of each structure in the training data set, optimal performance in the test data set, and median AUC of each structure identification were",imaging
+37197521,7,2,1.0,1.0,1.0,True,,unk,"teristic curve (AUC) of each structure in the training data set, optimal performance in the test data set, and median AUC of each structure identification were",imaging
+37251623,7,0,0.8,0.74,0.84,True,,unk,FINDINGS: The area under the receiver operating characteristic curves (AUCs) of ThyNet-LNM were,imaging
+37251623,7,1,0.81,0.77,0.86,True,,unk,FINDINGS: The area under the receiver operating characteristic curves (AUCs) of ThyNet-LNM were,imaging
+37251623,7,2,0.76,0.68,0.83,True,,unk,FINDINGS: The area under the receiver operating characteristic curves (AUCs) of ThyNet-LNM were,imaging
+37251623,7,3,0.81,0.75,0.85,True,internal test,int,FINDINGS: The area under the receiver operating characteristic curves (AUCs) of ThyNet-LNM were,imaging
+37251632,9,0,0.95,0.909,0.969,True,independent external validation,ext,e area under the receiver operating characteristic curve (AUC) of the internal validation cohort and two independent external validation cohorts for EDL-BC was,imaging
+37347482,12,0,0.83,0.75,0.91,True,,unk,"F1 score, 73.7%; and AUC,",imaging
+37347482,13,0,0.8,0.69,0.91,True,,unk,The AUCs were,combined
+37347482,13,1,0.86,0.79,0.93,True,,unk,The AUCs were,combined
+37436183,7,0,0.76,0.7,0.81,True,,unk,Both fibrosis (FIB)-4 and liver morphomics alone performed equally well with area under the receiving operating characteristics of,imaging
+37436183,7,1,0.71,0.65,0.76,True,,unk,Both fibrosis (FIB)-4 and liver morphomics alone performed equally well with area under the receiving operating characteristics of,imaging
+37436183,8,0,0.84,0.8,0.89,True,,unk,r liver morphomics with laboratory and demographic data resulted in significant improved performance with area under the receiving operating characteristics of,imaging
+37436183,8,1,0.85,0.81,0.9,True,,unk,r liver morphomics with laboratory and demographic data resulted in significant improved performance with area under the receiving operating characteristics of,imaging
+37532473,4,0,0.88,0.83,0.92,True,internal validation,int,"RESULTS: Using the internal validation dataset, the results were as follows: area under the curve (AUC) (",imaging
+37532473,5,0,0.76,0.71,0.8,True,external validation,ext,"Using the NTUH-TPE external validation dataset, the results were as follows: AUC (",imaging
+37532473,6,0,0.72,0.64,0.82,True,external validation,ext,"Using the NTUH-BIO external validation dataset, the results were as follows: AUC (",imaging
+37600054,6,0,0.926,0.902,0.951,True,internal validation,int,"The pipeline demonstrated a high level of accuracy in detecting PE, with an area under the receiving operating characteristic curve (AUC) of",imaging
+37600054,6,1,0.842,0.794,0.889,True,external validation,ext,"The pipeline demonstrated a high level of accuracy in detecting PE, with an area under the receiving operating characteristic curve (AUC) of",imaging
+37609311,6,0,0.73,0.68,0.88,True,external validation,ext,"On external validation, the TransferX model yielded AUC (",imaging
+37615504,25,0,0.07,0.75,0.79,False,,unk,ormance in identifying pathologic fractures; the area under the receiver operating characteristic curve for DenseNet121 was larger than those for VGG16 (0.77 ±,imaging
+37615504,25,1,0.08,0.69,0.73,False,,unk,ormance in identifying pathologic fractures; the area under the receiver operating characteristic curve for DenseNet121 was larger than those for VGG16 (0.77 ±,imaging
+37615504,25,2,0.07,0.75,0.79,False,,unk,ormance in identifying pathologic fractures; the area under the receiver operating characteristic curve for DenseNet121 was larger than those for VGG16 (0.77 ±,imaging
+37615504,25,3,0.09,0.69,0.74,False,,unk,ormance in identifying pathologic fractures; the area under the receiver operating characteristic curve for DenseNet121 was larger than those for VGG16 (0.77 ±,imaging
+37627831,5,0,0.82,0.8,0.85,True,,unk,We achieved an Area under the Receiver Operating Characteristic Curve (AUROC) of,imaging
+37627831,5,1,0.84,0.81,0.86,True,internal test,int,We achieved an Area under the Receiver Operating Characteristic Curve (AUROC) of,imaging
+37672075,9,0,0.966,0.919,1.0,True,independent,ext,"In the independent internal and external validation, AUCs of",imaging
+37672075,9,1,0.898,0.824,0.972,True,independent,ext,"In the independent internal and external validation, AUCs of",imaging
+37674097,9,0,0.94,0.93,0.95,True,,unk,The CNN's performance in identifying scans with ≥1 moderate or severe fractures achieved an AUROC of,imaging
+37780621,10,0,0.871,0.8,0.942,True,external validation,ext,The DTL+Rad signature showed good discriminatory ability in both the training and external validation groups with AUC values of,imaging
+37780621,10,1,0.744,0.617,0.871,True,,unk,The DTL+Rad signature showed good discriminatory ability in both the training and external validation groups with AUC values of,imaging
+37780833,10,0,0.965,0.962,0.968,True,internal,int,The AUC for model classification was,imaging
+37780833,10,1,0.916,0.908,0.925,True,external test,ext,The AUC for model classification was,imaging
+37883177,12,0,0.497,0.32,0.65,True,,unk,"% (95% CI 76%-89%) specificity, 0.509 (95% CI 0.34-0.67) F1-score, 0.874 (95% CI 0.80-0.94) area under the receiver operating characteristic curve (AUROC), and",combined
+37883177,13,0,0.577,0.44,0.73,True,,unk,"Compared to the image classifier alone, which had an AUROC of",combined
+37883177,13,1,0.206,0.08,0.38,True,,unk,"Compared to the image classifier alone, which had an AUROC of",combined
+37962501,16,0,0.97,0.89,0.99,True,training,train,"For DL, the area under the receiver operating characteristic curve was",imaging
+37962501,16,1,0.96,0.9,0.98,True,external test,ext,"For DL, the area under the receiver operating characteristic curve was",imaging
+37994940,7,0,0.902,0.858,0.947,True,,unk,"The model's sensitivity, specificity, accuracy, and area under curve (95% confidence interval) were 0.880, 0.812, 0.836, and",imaging
+38117404,5,0,0.86,0.78,0.94,True,internal test,int,"e ensemble deep convolutional neural network (DCNN) achieved high performance in predicting CLNM in the test sets examined, with area under the curve values of",combined
+38117404,5,1,0.77,0.68,0.87,True,external test,ext,"e ensemble deep convolutional neural network (DCNN) achieved high performance in predicting CLNM in the test sets examined, with area under the curve values of",combined
+38221995,9,0,0.953,0.938,0.965,True,,unk,"This model outperformed four deep-learning models (AUC [95% C.I.]: Ensemble model,",combined
+38333364,5,0,0.917,0.899,0.931,True,,unk,FINDINGS: ALMSS achieved average area under the curve (AUC) of,imaging
+38411839,5,0,0.894,0.728,1.0,True,internal validation,int,"RESULTS: In the internal validation and prospective cohorts, the one-year AUCs for Nomo-LDLM-2F using the time series medical images and tumor markers were",imaging
+38411839,5,1,0.809,0.561,1.0,True,prospective,ext,"RESULTS: In the internal validation and prospective cohorts, the one-year AUCs for Nomo-LDLM-2F using the time series medical images and tumor markers were",imaging
+38411839,6,0,0.771,0.51,1.0,True,external validation,ext,"In the external validation cohort, the one-year AUC of Nomo-LDLM-2F without tumor markers was",imaging
+38530554,9,0,0.876,0.811,0.942,True,internal,int,The classification model yielded AUCs of,imaging
+38530554,9,1,0.799,0.696,0.902,True,external test,ext,The classification model yielded AUCs of,imaging
+38536463,7,0,0.62,0.49,0.76,True,,unk,RESULTS: The DL algorithm performed significantly worse in the uncertain group compared to the certain group of DLCST (AUC,imaging
+38536463,7,1,0.93,0.88,0.97,True,,unk,RESULTS: The DL algorithm performed significantly worse in the uncertain group compared to the certain group of DLCST (AUC,imaging
+38536463,7,2,0.62,0.5,0.73,True,,unk,RESULTS: The DL algorithm performed significantly worse in the uncertain group compared to the certain group of DLCST (AUC,imaging
+38536463,7,3,0.9,0.86,0.94,True,,unk,RESULTS: The DL algorithm performed significantly worse in the uncertain group compared to the certain group of DLCST (AUC,imaging
+38569895,10,0,0.903,0.861,0.952,True,,unk,"ity, specificity and area under the curve of the intelligent algorithm to assess moderate and severe cholinergic white matter pathway injury were 91.7%, 87.3%,",imaging
+38569895,10,1,0.868,0.819,0.921,True,internal test,int,"ity, specificity and area under the curve of the intelligent algorithm to assess moderate and severe cholinergic white matter pathway injury were 91.7%, 87.3%,",imaging
+38590908,8,0,0.869,0.761,0.976,True,internal validation,int,"RESULTS: The multimodal fusion model demonstrated superior performance compared to single-modal models, with AUC values of",combined
+38590908,8,1,0.848,0.721,0.975,True,external validation,ext,"RESULTS: The multimodal fusion model demonstrated superior performance compared to single-modal models, with AUC values of",combined
+38590908,10,0,0.898,0.82,0.975,True,internal validation,int,"The final ensemble model exhibited the best performance, with AUC values of",combined
+38590908,10,1,0.868,0.768,0.968,True,external validation,ext,"The final ensemble model exhibited the best performance, with AUC values of",combined
+38609953,6,0,0.85,0.73,0.97,True,test,int,Diagnostic performances of MMD-DL achieved AUCs of,imaging
+38609953,6,1,0.81,0.73,0.89,True,validation,int,Diagnostic performances of MMD-DL achieved AUCs of,imaging
+38617165,8,0,0.963,0.941,0.986,True,,unk,The LRM had an AUC of,imaging
+38617165,9,0,0.771,0.582,0.96,True,,unk,"In predicting unstable IAs, the DLM had an AUC of",imaging
+38787932,12,0,0.888,0.85,0.925,True,external validation,ext,"In the external validation, the ExtraTrees model achieved a robust area under the curve of",imaging
+38812917,10,0,0.9,0.84,0.95,True,,unk,The AUC was,imaging
+38812917,10,1,0.84,0.72,0.93,True,,unk,The AUC was,imaging
+38812917,11,0,0.89,0.84,0.94,True,,unk,The AUC was,imaging
+38812917,11,1,0.85,0.72,0.95,True,,unk,The AUC was,imaging
+38866432,8,0,0.7395,0.5765,0.9024,True,,unk,"nt predictions relative to models trained on imaging acquired by using only 1 sequence, with area under the receiver operating characteristic (AUROC) values of",combined
+38866432,8,1,0.8816,0.803,0.9602,True,,unk,"nt predictions relative to models trained on imaging acquired by using only 1 sequence, with area under the receiver operating characteristic (AUROC) values of",combined
+38866432,9,0,0.7874,0.6845,0.8903,True,,unk,"For urinary incontinence and cognition, combined model performances on predicting outcomes were similar to FLAIR-only performance, with AUROC values of",combined
+38866432,9,1,0.723,0.56,0.8859,True,,unk,"For urinary incontinence and cognition, combined model performances on predicting outcomes were similar to FLAIR-only performance, with AUROC values of",combined
+38902660,9,0,0.993,0.978,0.999,True,test,int,"The acute pancreatitis classifier module exhibited commendable diagnostic efficacy, showing an impressive AUC of",imaging
+38902660,9,1,0.85,0.79,0.898,True,external validation,ext,"The acute pancreatitis classifier module exhibited commendable diagnostic efficacy, showing an impressive AUC of",imaging
+38933101,11,0,0.88,0.82,0.92,True,internal,int,"DLS outperformed exacerbation history and the BMI, airflow obstruction, dyspnea, and exercise capacity (BODE) index, with an area under the ROC (AUC) value of",imaging
+38933101,11,1,0.86,0.81,0.89,True,external,ext,"DLS outperformed exacerbation history and the BMI, airflow obstruction, dyspnea, and exercise capacity (BODE) index, with an area under the ROC (AUC) value of",imaging
+38933823,6,0,0.879,0.852,0.906,True,,unk,RESULTS: The SE-Net deep learning network yielded area under the receiver operating characteristic curve (AUC) values of,imaging
+38933823,6,1,0.713,0.613,0.813,True,internal,int,RESULTS: The SE-Net deep learning network yielded area under the receiver operating characteristic curve (AUC) values of,imaging
+38947008,9,0,0.837,0.789,0.88,True,test,int,"In the held-out CSMC test cohort, EchoNet-Liver was able to detect the presence of cirrhosis with an AUC of",imaging
+38947008,9,1,0.799,0.758,0.837,True,,unk,"In the held-out CSMC test cohort, EchoNet-Liver was able to detect the presence of cirrhosis with an AUC of",imaging
+38947008,10,0,0.704,0.689,0.718,True,test,int,"In a separate test cohort with paired abdominal MRIs, cirrhosis was detected with an AUC of",imaging
+38947008,10,1,0.726,0.659,0.79,True,test,int,"In a separate test cohort with paired abdominal MRIs, cirrhosis was detected with an AUC of",imaging
+38947008,11,0,0.83,0.738,0.909,True,external test,ext,"In an external test cohort of 106 patients (n = 5,280 videos), the model detected cirrhosis with an AUC of",imaging
+38947008,11,1,0.768,0.652,0.875,True,external test,ext,"In an external test cohort of 106 patients (n = 5,280 videos), the model detected cirrhosis with an AUC of",imaging
+38952409,13,0,0.989,0.84,0.998,True,,unk,"For the task of identifying the presence of carotid plaques, our model achieved an AUC of",imaging
+38952409,14,0,0.951,0.962,0.939,False,external test,ext,"On the external test, the AUC was",imaging
+38952409,15,0,0.896,0.865,0.922,True,internal test,int,"For the task of identifying the stability of carotid plaques, our model achieved an AUC of",imaging
+38952409,16,0,0.854,0.889,0.83,False,external test,ext,"On the external test, the AUC was",imaging
+39050572,9,0,0.68,0.63,0.72,True,internal validation,int,RESULTS: Radiological tumor size was the strongest predictor of pN0 and included in a preoperative prediction model displaying an area under the curve of,imaging
+39050572,9,1,0.64,0.59,0.69,True,external validation,ext,RESULTS: Radiological tumor size was the strongest predictor of pN0 and included in a preoperative prediction model displaying an area under the curve of,imaging
+39119560,7,0,0.95,0.915,0.971,True,internal test,int,The algorithm achieved AUC of,imaging
+39119560,8,0,0.97,0.897,0.997,True,external,ext,"For the external datasets 1 and 2, the AUCs were",imaging
+39119560,8,1,0.971,0.924,0.99,True,external,ext,"For the external datasets 1 and 2, the AUCs were",imaging
+39119560,11,0,0.903,0.812,0.944,True,internal,int,"However, the diagnostic performance was somewhat reduced for isolated M2-MCA occlusion; the AUC for the internal and combined external datasets were",imaging
+39119560,11,1,0.916,0.816,0.963,True,external,ext,"However, the diagnostic performance was somewhat reduced for isolated M2-MCA occlusion; the AUC for the internal and combined external datasets were",imaging
+39129623,4,0,0.998,0.998,0.999,True,test,int,"RESULTS: In the held-out Cedars-Sinai Medical Center test set, the view classifier demonstrated an area under the curve (AUC) of",imaging
+39129623,6,0,0.916,0.899,0.932,True,test,int,"In the Cedars-Sinai Medical Center test cohort, MR moderate or greater in severity was detected with an AUC of",imaging
+39129623,6,1,0.934,0.913,0.953,True,,unk,"In the Cedars-Sinai Medical Center test cohort, MR moderate or greater in severity was detected with an AUC of",imaging
+39129623,7,0,0.951,0.924,0.973,True,test,int,"In the Stanford Healthcare test cohort, the model detected MR moderate or greater in severity with an AUC of",imaging
+39129623,7,1,0.969,0.946,0.987,True,test,int,"In the Stanford Healthcare test cohort, the model detected MR moderate or greater in severity with an AUC of",imaging
+39144024,8,0,0.939,0.842,1.0,True,external test,ext,"ternal test set of 29 patients, the model achieved an accuracy of 89.66%, a sensitivity of 90.91%, and a specificity of 83.33%, with an area under the curve of",imaging
+39166970,7,0,0.84,0.79,0.89,True,,unk,"The median Dice score was 0.79 (IQR, 0.53-0.89), and the AUC for detecting residual or recurrent tumor was",imaging
+39170939,13,0,0.916,0.858,0.961,True,internal validation,int,"For the prediction task, the deep learning-based framework achieved AUCs of",imaging
+39170939,13,1,0.865,0.774,0.945,True,external validation,ext,"For the prediction task, the deep learning-based framework achieved AUCs of",imaging
+39170939,13,2,0.901,0.835,0.955,True,external validation,ext,"For the prediction task, the deep learning-based framework achieved AUCs of",imaging
+39170939,13,3,0.876,0.804,0.936,True,prospective validation,ext,"For the prediction task, the deep learning-based framework achieved AUCs of",imaging
+39194400,4,0,0.96,0.96,0.97,True,,unk,"Results The model achieved a positive predictive value (PPV) of 85.7% (95% CI: 84.0, 87.4) and an area under the receiver operating characteristic curve of",imaging
+39194400,4,1,0.96,0.96,0.97,True,test,int,"Results The model achieved a positive predictive value (PPV) of 85.7% (95% CI: 84.0, 87.4) and an area under the receiver operating characteristic curve of",imaging
+39263012,10,0,0.89,0.88,0.9,True,,unk,"Furthermore, the deep learning model effectively differentiated the high-risk group from the low-risk group, achieving an area under the curve (AUC) of",imaging
+39263012,11,0,0.87,0.84,0.88,True,external validation,ext,"In the external validation conducted in cohort 2, the deep learning model displayed an AUC of",imaging
+39313716,3,0,0.868,0.826,0.923,True,,unk,"In the fivefold cross-validation, the area under the receiver operating characteristic curve (AUC) for the classification of ccRCC, pRCC, and chRCC was",imaging
+39313716,3,1,0.846,0.812,0.886,True,,unk,"In the fivefold cross-validation, the area under the receiver operating characteristic curve (AUC) for the classification of ccRCC, pRCC, and chRCC was",imaging
+39313716,3,2,0.839,0.802,0.88,True,,unk,"In the fivefold cross-validation, the area under the receiver operating characteristic curve (AUC) for the classification of ccRCC, pRCC, and chRCC was",imaging
+39313716,4,0,0.856,0.838,0.882,True,external validation,ext,"In the external validation set, the AUCs were",imaging
+39313716,4,1,0.787,0.757,0.818,True,external validation,ext,"In the external validation set, the AUCs were",imaging
+39313716,4,2,0.793,0.758,0.831,True,external validation,ext,"In the external validation set, the AUCs were",imaging
+39367349,8,0,0.86,0.82,0.89,True,,unk,RESULTS: Compared to the weighted mean AUC (wAUC),imaging
+39367349,8,1,0.95,0.94,0.97,True,,unk,RESULTS: Compared to the weighted mean AUC (wAUC),imaging
+39391469,9,0,0.931,0.89,0.972,True,,unk,The AUROC of the best model in the external test was,imaging
+39426965,6,0,0.91,0.87,0.95,True,internal,int,The multi-model approach achieved an AUC of,imaging
+39426965,6,1,0.84,0.78,0.89,True,external,ext,The multi-model approach achieved an AUC of,imaging
+39444883,5,0,0.93,0.913,0.951,True,internal test,int,"e-phase CT images and clinical information, outperformed other models in detecting COPD with an area under the receiver operating characteristic curve (AUC) of",clinical
+39444883,7,0,0.896,0.871,0.931,True,,unk,The proposed model also achieved the best performance on an external test (n=516) with an AUC of,imaging
+39475778,9,0,0.861,0.83,0.889,True,,unk,"RESULTS: When tested on the 569 Danish images, CNN-S achieved an AUROC of",imaging
+39475778,9,1,0.831,0.798,0.861,True,,unk,"RESULTS: When tested on the 569 Danish images, CNN-S achieved an AUROC of",imaging
+39475778,10,0,0.759,0.722,0.794,True,,unk,"P=.001 and P=.009, respectively), which achieved an AUROC of",imaging
+39569028,7,0,0.96,0.93,0.99,True,test,int,"Among the test datasets, the ResNet34 model outperformed other models, yielding the highest area under the curve (AUC) of",imaging
+39569028,8,0,0.88,0.8,0.93,True,external validation,ext,"Additionally, the ResNet34 model also exhibited superior performance in the external validation datasets, exhibiting an AUC of",imaging
+39654094,10,0,0.692,0.609,0.783,True,,unk,"In addition, the MRI-endoscopy fusion model outperformed the single-modal MRI model (AUC:",combined
+39654094,10,1,0.72,0.617,0.823,True,,unk,"In addition, the MRI-endoscopy fusion model outperformed the single-modal MRI model (AUC:",combined
+39725631,5,0,0.901,0.803,1.0,True,external test,ext,"RESULTS: In the external test set, the fusion model (SC-Net) achieved the best performance with an AUC of",combined
+39725631,5,1,0.818,0.694,0.942,True,external test,ext,"RESULTS: In the external test set, the fusion model (SC-Net) achieved the best performance with an AUC of",combined
+39966647,7,0,0.862,0.841,0.884,True,internal test,int,"For Label Set I, the internal test set AUC was",imaging
+39966647,7,1,0.829,0.785,0.873,True,,unk,"For Label Set I, the internal test set AUC was",imaging
+39966647,7,2,0.835,0.79,0.879,True,,unk,"For Label Set I, the internal test set AUC was",imaging
+39966647,8,0,0.934,0.911,0.957,True,,unk,Label Set II showed higher performance with internal test AUC of,imaging
+39966647,8,1,0.883,0.829,0.938,True,,unk,Label Set II showed higher performance with internal test AUC of,imaging
+39966647,8,2,0.913,0.876,0.951,True,,unk,Label Set II showed higher performance with internal test AUC of,imaging
+39995704,7,0,0.9,0.86,0.95,True,,unk,"oreover, the model enables greater confidence in identifying syrinx compared to the original images [AUC: 0.95, 95% confidence interval (CI): 0.92-0.99] versus",imaging
+40116947,9,0,0.936,0.915,0.957,True,,unk,"ity (95% confidence interval [CI] 97.8-99.3%), 88.5% specificity (95% CI, 83.6-92.3%), and an area under the receiver operating characteristic curve (AUROC) of",imaging
+40116947,11,0,0.967,0.953,0.981,True,,unk,"In the reader performance study, AUROC with JLK-ICH assistance (",imaging
+40116947,11,1,0.953,0.938,0.957,True,,unk,"In the reader performance study, AUROC with JLK-ICH assistance (",imaging
+40235812,6,0,0.957,0.902,1.0,True,internal,int,"RESULTS: The AI-PVR Insight system demonstrated exceptional performance in PVR identification and severity grading, with AUC values exceeding",imaging
+40235812,7,0,0.827,0.737,0.916,True,test,int,"For predicting postoperative PVR risk, the system achieved AUC values above",imaging
+40317503,11,0,0.78,0.63,0.94,True,testing,int,"RESULTS: The multi-modal DLM incorporating imaging, pathological, surgical, and clinical data predicted RFS in the testing cohort (AUC =",imaging
+40317503,11,1,0.66,0.58,0.73,True,external validation,ext,"RESULTS: The multi-modal DLM incorporating imaging, pathological, surgical, and clinical data predicted RFS in the testing cohort (AUC =",imaging
+40361149,3,0,0.86,0.83,0.9,True,internal,int,ROC curves showed that the area under the curve (AUC) of the DL model for predicting patients' platinum resistance in the internal and external test sets were,imaging
+40361149,3,1,0.86,0.84,0.89,True,external test,ext,ROC curves showed that the area under the curve (AUC) of the DL model for predicting patients' platinum resistance in the internal and external test sets were,imaging
+40391846,3,0,0.932,0.898,0.965,True,training,train,"The deep learning model accurately predicts the TB status, with area under the curve values of",imaging
+40391846,3,1,0.944,0.897,0.991,True,internal validation,int,"The deep learning model accurately predicts the TB status, with area under the curve values of",imaging
+40391846,3,2,0.882,0.832,0.933,True,external validation,ext,"The deep learning model accurately predicts the TB status, with area under the curve values of",imaging
+40391846,3,3,0.944,0.908,0.981,True,external validation,ext,"The deep learning model accurately predicts the TB status, with area under the curve values of",imaging
+40391846,3,4,0.854,0.739,0.97,True,validation,int,"The deep learning model accurately predicts the TB status, with area under the curve values of",imaging
+40410330,9,0,0.637,0.5,0.774,True,internal validation,int,The best AUC for predicting short vs. long-term survival was achieved with the multi-modal model (AUC =,imaging
+40410330,10,0,0.571,0.453,0.689,True,,unk,External validation showed AUCs of,imaging
+40410330,10,1,0.675,0.593,0.757,True,,unk,External validation showed AUCs of,imaging
+40449950,8,0,0.99,0.983,0.996,True,testing,int,"RESULTS: In classifying DME with non-DME, our model achieved an AUROCs of",imaging
+40449950,8,1,0.916,0.902,0.93,True,external validation,ext,"RESULTS: In classifying DME with non-DME, our model achieved an AUROCs of",imaging
+40449950,9,0,0.859,0.812,0.906,True,,unk,"To distinguish CI-DME from non-centre-involved-DME, our model achieved AUROCs of",imaging
+40449950,9,1,0.881,0.859,0.902,True,,unk,"To distinguish CI-DME from non-centre-involved-DME, our model achieved AUROCs of",imaging
+40493909,10,0,0.78,0.777,0.785,True,external validation,ext,"RESULTS: In the external validation cohort, the integrated model demonstrated superior performance, with an area under the curve of",combined
+40524235,8,0,0.8998,0.8529,0.9439,True,external validation,ext,"In the external validation set, WAUVE achieved an area under the receiver operating characteristic curve (AUC) of",imaging
+40584836,13,0,0.923,0.859,0.987,True,external validation,ext,"In the external validation cohorts, the AUC values were",imaging
+40584836,13,1,0.892,0.821,0.963,True,external validation,ext,"In the external validation cohorts, the AUC values were",imaging
+40584836,13,2,0.913,0.835,0.991,True,external validation,ext,"In the external validation cohorts, the AUC values were",imaging
+40635535,8,0,0.846,0.819,0.871,True,validation,int,"For the clinical validation dataset, the ensemble model exhibited an AUROC of",combined
+40649169,6,0,0.96,0.94,0.98,True,,unk,"Results: The model achieved a sensitivity of 0.94 (95% CI: 0.88-0.97), specificity of 0.93 (95% CI: 0.89-0.97), and an AUC of",imaging
+40697376,8,0,0.772,0.69,0.854,True,,unk,RESULTS: The area under the receiver operating characteristic curve (AUC) for the clinical model was,clinical
+40697376,9,0,0.792,0.719,0.864,True,,unk,The 2D and color Doppler DL models achieved AUCs of,imaging
+40697376,9,1,0.813,0.745,0.881,True,,unk,The 2D and color Doppler DL models achieved AUCs of,imaging
+40697376,11,0,0.892,0.846,0.938,True,external validation,ext,"In the external validation cohort, the merged model achieved an AUC of",combined
+40697959,9,0,0.937,0.919,0.954,True,internal validation,int,"In the internal validation cohort, the OverLoCK model achieved an AUC of",imaging
+40697959,10,0,0.853,0.832,0.876,True,external validation,ext,"In the external validation cohort, the model yielded an AUC of",imaging
+40703133,6,0,0.9,0.84,0.97,True,internal validation,int,AUC of the AI-CAC model to identify a CAC >0 was,imaging
+40703133,6,1,0.77,0.67,0.86,True,external validation,ext,AUC of the AI-CAC model to identify a CAC >0 was,imaging
+40722670,8,0,0.915,0.867,0.95,True,,unk,The mass showed the highest AUCs of,imaging
+40722670,8,1,0.913,0.84,0.96,True,,unk,The mass showed the highest AUCs of,imaging
+40722670,8,2,0.893,0.81,0.948,True,training,train,The mass showed the highest AUCs of,imaging
+40753327,7,0,0.86,0.8,0.92,True,,unk,RESULTS: The model achieved AUCs of,imaging
+40753327,7,1,0.91,0.85,0.96,True,,unk,RESULTS: The model achieved AUCs of,imaging
+40753327,7,2,0.78,0.71,0.86,True,,unk,RESULTS: The model achieved AUCs of,imaging
+40800103,8,0,0.777,0.704,0.839,True,,unk,"The best model, resulting from the fusion of tumor and kidney models, achieved an AUC of",combined
+40830810,6,0,0.76,0.72,0.8,True,,unk,"RESULTS: For patients in Center 1, the area under the curve (AUC) for predicting EPE was",imaging
+40830810,6,1,0.77,0.7,0.82,True,,unk,"RESULTS: For patients in Center 1, the area under the curve (AUC) for predicting EPE was",imaging
+40830810,6,2,0.82,0.78,0.87,True,,unk,"RESULTS: For patients in Center 1, the area under the curve (AUC) for predicting EPE was",imaging
+40830810,7,0,0.75,0.6,0.88,True,external test,ext,"In the external test set (Center 2), the AUCs for these models were",imaging
+40830810,7,1,0.77,0.72,0.88,True,external test,ext,"In the external test set (Center 2), the AUCs for these models were",imaging
+40830810,7,2,0.81,0.63,0.97,True,external test,ext,"In the external test set (Center 2), the AUCs for these models were",imaging
+40893491,11,0,0.936,0.916,0.955,True,internal test,int,"canal stenosis in the internal test set, both the algorithm and six readers achieved similar areas under the receiver operating characteristic curve (AUCs) of",imaging
+40893491,11,1,0.931,0.917,0.946,True,,unk,"canal stenosis in the internal test set, both the algorithm and six readers achieved similar areas under the receiver operating characteristic curve (AUCs) of",imaging
+40951361,10,0,0.773,0.706,0.84,True,internal validation,int,"The ResNet50 model, recognized as the most effective base model, demonstrated an area under the curve (AUC) of",imaging
+40964606,9,0,0.922,0.886,0.958,True,training,train,"TabPFN outperformed traditional models in small samples, with area under the receiver operating characteristic curve (AUC) values of",imaging
+40964606,9,1,0.857,0.733,0.981,True,internal validation,int,"TabPFN outperformed traditional models in small samples, with area under the receiver operating characteristic curve (AUC) values of",imaging
+40964606,9,2,0.815,0.711,0.918,True,external validation,ext,"TabPFN outperformed traditional models in small samples, with area under the receiver operating characteristic curve (AUC) values of",imaging
+40994958,6,0,0.844,0.784,0.893,True,training,train,The AUC for the training set was,imaging
+40994958,7,0,0.811,0.748,0.864,True,validation,int,"In the validation set, the AUC for predicting EC was",imaging
+40994958,7,1,0.858,0.8,0.905,True,validation,int,"In the validation set, the AUC for predicting EC was",imaging
+40996604,8,0,0.935,0.894,0.968,True,external test,ext,The model achieved an AUC of,imaging
+41031982,5,0,0.947,0.91,0.984,True,internal validation,int,DROID-MVP accurately identified MVP across the MGH cardiology internal validation set (area under the receiver-operating characteristic curve [AUROC]:,imaging
+41031982,5,1,0.964,0.951,0.977,True,external validation,ext,DROID-MVP accurately identified MVP across the MGH cardiology internal validation set (area under the receiver-operating characteristic curve [AUROC]:,imaging
+41031982,6,0,0.968,0.946,0.989,True,external validation,ext,"AP: 0.651 [95% CI: 0.578-0.716]; prevalence: 0.022), and BWH primary care external validation set (AUROC:",imaging
+41048339,6,0,0.837,0.828,0.848,True,test,int,"In a held-out CSMC test cohort, EchoNet-Liver detected cirrhosis with an area under the receiver operating characteristic curve (AUROC) of",imaging
+41048339,6,1,0.799,0.788,0.811,True,,unk,"In a held-out CSMC test cohort, EchoNet-Liver detected cirrhosis with an area under the receiver operating characteristic curve (AUROC) of",imaging
+41048339,7,0,0.704,0.699,0.708,True,test,int,"In a separate test cohort with paired abdominal MRI studies, EchoNet-Liver detected cirrhosis with an AUROC of",imaging
+41048339,7,1,0.725,0.707,0.762,True,,unk,"In a separate test cohort with paired abdominal MRI studies, EchoNet-Liver detected cirrhosis with an AUROC of",imaging
+41048339,8,0,0.83,0.799,0.859,True,external test,ext,"In an external test cohort of 106 patients (5280 videos), the model detected cirrhosis with an AUROC of",imaging
+41048339,8,1,0.769,0.733,0.813,True,external test,ext,"In an external test cohort of 106 patients (5280 videos), the model detected cirrhosis with an AUROC of",imaging
+41049432,7,0,0.984,0.965,0.995,True,internal test,int,"Results: For breast cancer detection, the DL model achieved an area under the receiver operating characteristic curve (AUC) of",imaging
+41049432,7,1,0.978,0.951,0.994,True,external test,ext,"Results: For breast cancer detection, the DL model achieved an area under the receiver operating characteristic curve (AUC) of",imaging
+41049432,7,2,0.942,0.902,0.978,True,external test,ext,"Results: For breast cancer detection, the DL model achieved an area under the receiver operating characteristic curve (AUC) of",imaging
+41059155,10,0,0.949,0.935,0.963,True,,unk,The overall AUROC was,imaging
+41081147,9,0,0.922,0.9,0.939,True,training,train,"RESULTS: The hybrid model demonstrated superior performance in both the training and internal validation cohorts, achieving AUCs of",combined
+41081147,9,1,0.894,0.834,0.934,True,internal validation,int,"RESULTS: The hybrid model demonstrated superior performance in both the training and internal validation cohorts, achieving AUCs of",combined
+41081147,12,0,0.857,0.781,0.912,True,,unk,"Notably, the DL model outperformed the clinical-radiological model in predicting PHCC, with AUCs of",combined
+41081147,12,1,0.747,0.652,0.825,True,internal validation,int,"Notably, the DL model outperformed the clinical-radiological model in predicting PHCC, with AUCs of",combined
+41081147,12,2,0.788,0.686,0.865,True,internal validation,int,"Notably, the DL model outperformed the clinical-radiological model in predicting PHCC, with AUCs of",combined
+41081147,12,3,0.625,0.505,0.735,True,external validation,ext,"Notably, the DL model outperformed the clinical-radiological model in predicting PHCC, with AUCs of",combined
+41126066,7,0,0.802,0.669,0.936,True,,unk,"RESULTS: Compared with 2D DL and 3D DL models, the 2.5D DL model based on all axial images of ROI had the highest performance, with the AUC values of",imaging
+41126066,7,1,0.759,0.643,0.875,True,validation,int,"RESULTS: Compared with 2D DL and 3D DL models, the 2.5D DL model based on all axial images of ROI had the highest performance, with the AUC values of",imaging
+41126066,8,0,0.954,0.92,0.989,True,training,train,The AUCs of the multimodal MRI model were,imaging
+41126066,8,1,0.857,0.736,0.978,True,validation,int,The AUCs of the multimodal MRI model were,imaging
+41126066,8,2,0.788,0.681,0.895,True,test,int,The AUCs of the multimodal MRI model were,imaging
+41140759,9,0,0.922,0.913,0.931,True,internal validation,int,RESULTS: The neural network achieved an area under the receiver operating characteristic curve of,imaging
+41140759,9,1,0.924,0.917,0.931,True,external validation,ext,RESULTS: The neural network achieved an area under the receiver operating characteristic curve of,imaging
+41162416,3,0,0.8,0.78,0.82,True,,unk,"Using a large in-house dataset with 171,168 mammograms from 9133 women, MTP-BCR achieved superior performance in 10-year risk prediction, with an AUC of",imaging
+41206832,7,0,0.73,0.62,0.82,True,external test,ext,"ng the internal and external test sets, the area under the receiver operating characteristic curve (AUC) for predicting NTM disease status using CT imaging was",imaging
+41206832,7,1,0.78,0.75,0.83,True,,unk,"ng the internal and external test sets, the area under the receiver operating characteristic curve (AUC) for predicting NTM disease status using CT imaging was",imaging
+41206832,8,0,0.85,0.8,0.93,True,,unk,"When imaging data were integrated with clinical information, our NTMNet model achieved AUC values of",combined
+41206832,8,1,0.82,0.78,0.89,True,,unk,"When imaging data were integrated with clinical information, our NTMNet model achieved AUC values of",combined
+41268243,9,0,0.86,0.674,1.0,True,external validation,ext,"In external validation, DenseNet201 demonstrated a robust AUC of",imaging
+41300923,12,0,0.927,0.911,0.94,True,,unk,"the best balance, with an accuracy of 0.854 (95% CI, 0.831-0.874), a sensitivity of 0.845 (0.810-0.875), a specificity of 0.861 (0.830-0.887), and an AUROC of",imaging
+41372552,6,0,0.841,0.804,0.879,True,,unk,"3 (SD), 482 women) and 5242 CT scans of the AGES-Reykjavik Study (mean participant age, 76.4 years ± 5.6, 3032 women), and achieved area under the ROC curve of",imaging
+41372552,6,1,0.823,0.798,0.847,True,,unk,"3 (SD), 482 women) and 5242 CT scans of the AGES-Reykjavik Study (mean participant age, 76.4 years ± 5.6, 3032 women), and achieved area under the ROC curve of",imaging
+41405689,4,0,0.84,0.83,0.86,True,training,train,RESULTS: DRG achieved an AUC of,imaging
+41405689,4,1,0.82,0.71,0.91,True,testing,int,RESULTS: DRG achieved an AUC of,imaging
+41405689,4,2,0.84,0.69,0.96,True,external validation,ext,RESULTS: DRG achieved an AUC of,imaging
+41417633,3,0,0.93,0.9,0.96,True,training,train,"etween July 2012 and July 2023, MR-DELTAnet demonstrated robust discriminative performance across independent datasets, with the area under the curves (AUC) of",imaging
+41417633,3,1,0.88,0.82,0.94,True,internal validation,int,"etween July 2012 and July 2023, MR-DELTAnet demonstrated robust discriminative performance across independent datasets, with the area under the curves (AUC) of",imaging
+41417633,3,2,0.9,0.79,1.0,True,external validation,ext,"etween July 2012 and July 2023, MR-DELTAnet demonstrated robust discriminative performance across independent datasets, with the area under the curves (AUC) of",imaging
+41464157,10,0,0.71,0.62,0.79,True,,unk,"erived opacity burden was significantly associated with poorer outcomes; for example, opacity score cut-off of 5.5 yielded an area under the ROC curve (AUC) of",imaging
+41466236,5,0,0.904,0.814,0.973,True,internal validation,int,"RESULTS: The EfficientNet-B3 model demonstrated the optimal predictive performance, with an area under the receiver operating curve (AUC) of",imaging
+41466236,5,1,0.866,0.783,0.936,True,external test,ext,"RESULTS: The EfficientNet-B3 model demonstrated the optimal predictive performance, with an area under the receiver operating curve (AUC) of",imaging
+41501304,7,0,0.829,0.764,0.894,True,,unk,"For COPD detection, the model achieved an AUC of",imaging
+41535345,6,0,0.83,0.81,0.85,True,,unk,"CAD prevalence 53%), the AI model achieved an area under the receiver operating characteristic curve (AUC) of",imaging
+41566290,8,0,0.862,0.737,0.943,True,internal,int,"tperformed single-modal models in predicting the overall response rate (ORR) of targeted therapy and chemotherapy in locally advanced HNSCC, with AUC values of",combined
+41566290,8,1,0.825,0.644,0.939,True,external validation,ext,"tperformed single-modal models in predicting the overall response rate (ORR) of targeted therapy and chemotherapy in locally advanced HNSCC, with AUC values of",combined
+41595950,7,0,0.821,0.69,0.929,True,,unk,"RESULTS: The DNN model demonstrated the best validation performance, achieving an area under the curve (AUC) of",imaging
+41606245,6,0,0.89,0.82,0.94,True,external test,ext,"On the external test set, the MTDL model achieved AUCs of",clinical
+41606245,6,1,0.87,0.81,0.93,True,external test,ext,"On the external test set, the MTDL model achieved AUCs of",clinical
+41606246,7,0,0.89,0.87,0.91,True,test,int,RESULTS: The fully supervised nnU-Net showed the highest performance on the internal PI-CAI test set (AUC =,imaging
+41606246,7,1,0.65,0.6,0.7,True,,unk,RESULTS: The fully supervised nnU-Net showed the highest performance on the internal PI-CAI test set (AUC =,imaging
+41606246,7,2,0.68,0.64,0.72,True,external validation,ext,RESULTS: The fully supervised nnU-Net showed the highest performance on the internal PI-CAI test set (AUC =,imaging
+41606246,7,3,0.24,0.2,0.29,True,,unk,RESULTS: The fully supervised nnU-Net showed the highest performance on the internal PI-CAI test set (AUC =,imaging
+41606246,7,4,0.87,0.82,0.92,True,,unk,RESULTS: The fully supervised nnU-Net showed the highest performance on the internal PI-CAI test set (AUC =,imaging
+41606246,7,5,0.64,0.56,0.72,True,,unk,RESULTS: The fully supervised nnU-Net showed the highest performance on the internal PI-CAI test set (AUC =,imaging
+41606246,8,0,0.66,0.62,0.71,True,,unk,The proposed semi-supervised mtU-Net demonstrated close external validation performance on PROMIS (AUC =,imaging
+41606246,8,1,0.2,0.16,0.25,True,,unk,The proposed semi-supervised mtU-Net demonstrated close external validation performance on PROMIS (AUC =,imaging
+41606246,8,2,0.86,0.81,0.92,True,,unk,The proposed semi-supervised mtU-Net demonstrated close external validation performance on PROMIS (AUC =,imaging
+41606246,8,3,0.58,0.49,0.67,True,,unk,The proposed semi-supervised mtU-Net demonstrated close external validation performance on PROMIS (AUC =,imaging
+41673850,10,0,0.753,0.596,0.885,True,external testing,ext,"y = 0.774 [95% CI: 0.679–0.857], sensitivity = 0.818 [95% CI: 0.723–0.905)], specificity = 0.611 [95% CI: 0.389–0.846], F1 = 0.850 [95% CI: 0.776–0.913], AUC =",imaging
+41674454,9,0,0.92,0.91,0.94,True,,unk,"trated that the deep-learning model showed robust discrimination of CA from other hypertrophic phenocopies: CA versus hypertension (area under the curve [AUC],",imaging
+41674454,9,1,0.91,0.87,0.94,True,,unk,"trated that the deep-learning model showed robust discrimination of CA from other hypertrophic phenocopies: CA versus hypertension (area under the curve [AUC],",imaging
+41674454,9,2,0.93,0.9,0.95,True,,unk,"trated that the deep-learning model showed robust discrimination of CA from other hypertrophic phenocopies: CA versus hypertension (area under the curve [AUC],",imaging
+41674454,9,3,0.93,0.91,0.95,True,,unk,"trated that the deep-learning model showed robust discrimination of CA from other hypertrophic phenocopies: CA versus hypertension (area under the curve [AUC],",imaging
+41674454,10,0,0.93,0.91,0.95,True,,unk,"classify a greater proportion of patients compared with the AI-derived multiparametric echocardiographic score and achieved superior diagnostic accuracy (AUC,",imaging
+41674454,10,1,0.88,0.85,0.9,True,,unk,"classify a greater proportion of patients compared with the AI-derived multiparametric echocardiographic score and achieved superior diagnostic accuracy (AUC,",imaging
+41674596,5,0,0.92,0.92,0.93,True,external,ext,"On the external-cohort, AI approach achieved an Area under the curve (AUC) of",imaging
+41674596,5,1,0.91,0.9,0.92,True,external,ext,"On the external-cohort, AI approach achieved an Area under the curve (AUC) of",imaging
+41686074,8,0,0.84,0.65,0.92,True,internal test,int,The model achieved a median AUC of,imaging
+41686074,8,1,0.61,0.59,0.65,True,external test,ext,The model achieved a median AUC of,imaging
+41686074,10,0,0.77,0.72,0.83,True,internal test,int,"On the internal test set, AUCs for RMI, ADNEX, and radiologists were",imaging
+41686074,10,1,0.68,0.51,0.84,True,internal test,int,"On the internal test set, AUCs for RMI, ADNEX, and radiologists were",imaging
+41686074,10,2,0.76,0.69,0.83,True,internal test,int,"On the internal test set, AUCs for RMI, ADNEX, and radiologists were",imaging
+41686074,11,0,0.66,0.44,0.88,True,external test,ext,"On the external test set, corresponding AUCs were",imaging
+41694823,7,0,0.897,0.86,0.934,True,validation,int,"RESULTS: On validation data, the AI-CAD achieved a sensitivity of 79%, specificity of 89%, and an area under the curve (AUC) of",imaging
+41695565,6,0,0.85,0.83,0.87,True,,unk,The area under the receiver-operating curve (AUROC) was,imaging
+41706751,8,0,0.86,0.79,0.91,True,independent test,ext,"In the independent test set, the CL-AI model achieved an AUC of",imaging
+41706751,9,0,0.82,0.75,0.88,True,,unk,The VIDIAC-AI model achieved an AUC of,imaging
+41718534,8,0,0.86,0.77,0.95,True,,unk,Multisequence models reached AUCs of,imaging
+41718534,8,1,0.83,0.73,0.94,True,,unk,Multisequence models reached AUCs of,imaging
+41718534,9,0,0.88,0.8,0.96,True,,unk,"Multimodal fusion improved performance (mask: AUC,",imaging
+41718534,9,1,0.85,0.75,0.94,True,,unk,"Multimodal fusion improved performance (mask: AUC,",imaging
+41718534,10,0,0.77,0.66,0.89,True,,unk,"P = .50), with external test AUCs of",imaging
+41718534,10,1,0.76,0.64,0.88,True,,unk,"P = .50), with external test AUCs of",imaging
+41761479,6,0,0.881,0.781,0.982,True,internal,int,"score.ResultsCompared with single-parameter models, the multi-parametric fusion model demonstrated significantly improved predictive performance, with AUCs of",combined
+41761479,6,1,0.859,0.764,0.953,True,external validation,ext,"score.ResultsCompared with single-parameter models, the multi-parametric fusion model demonstrated significantly improved predictive performance, with AUCs of",combined
+41788663,8,0,0.848,0.788,0.902,True,internal,int,"Our proposed HMFFN-AMGNN model demonstrated excellent performance, achieving AUC of",imaging
+41788663,8,1,0.867,0.792,0.929,True,external test,ext,"Our proposed HMFFN-AMGNN model demonstrated excellent performance, achieving AUC of",imaging
+41815162,9,0,0.821,0.713,0.916,True,internal validation,int,"On the internal validation set, the fusion model achieved an area under the curve (AUC) of",combined
+41815162,10,0,0.808,0.667,0.928,True,external validation,ext,"On the external validation set, the fusion model maintained robust performance: AUC reached",combined
+41832286,10,0,0.786,0.682,0.877,True,internal validation,int,"In internal validation, the AI model achieved an ROC AUC of",imaging
+41832286,10,1,0.749,0.602,0.861,True,internal validation,int,"In internal validation, the AI model achieved an ROC AUC of",imaging
+41833807,13,0,0.76,0.7,0.82,True,,unk,Sybil-Epi's AUC was,imaging
+41833807,13,1,0.64,0.57,0.7,True,,unk,Sybil-Epi's AUC was,imaging
+41982697,9,0,0.935,0.927,0.943,True,,unk,"LHFM achieved superior prognostic performance, with a C-index of 0.910 [95% confidence interval (CI): 0.898-0.922, standard deviation (SD) =0.006] and AUROC of",imaging
+41982700,12,0,0.854,0.745,0.976,True,,unk,The area under the curve of the deep learning model was,imaging
+41982817,12,0,0.867,0.817,0.918,True,training,train,The nomogram achieved an area under the curve of,imaging
+41982817,12,1,0.804,0.709,0.899,True,validation,int,The nomogram achieved an area under the curve of,imaging
+42052491,6,0,0.836,0.804,0.869,True,,unk,"RESULTS: The final AI-assisted model demonstrated strong discrimination, with an AUC of",imaging
+42069920,7,0,0.85,0.82,0.89,True,derivation,train,The combined model had area under curves (AUCs) of,combined
+42069920,7,1,0.83,0.8,0.87,True,internal,int,The combined model had area under curves (AUCs) of,combined
+42069920,7,2,0.8,0.76,0.84,True,external test,ext,The combined model had area under curves (AUCs) of,combined
+42069945,7,0,0.88,0.76,0.96,True,external testing,ext,"In the external testing cohort (9/58 CRC-specific deaths), the multimodal model achieved an AUC of",imaging
+42072486,8,0,0.694,0.596,0.792,True,,unk,Model A achieved a mean AUC of,imaging
+42072486,9,0,0.822,0.68,0.964,True,,unk,Model B achieved a mean AUC of,imaging
+42089749,9,0,0.88,0.83,0.93,True,,unk,"5% CI: 75.89%, 86.48%) accuracy, 79.59% (95% CI: 70.57%, 86.38%) sensitivity, 83.81% (95% CI: 75.59%, 89.64%) specificity, and an area under the curve (AUC) of",imaging
+42122082,4,0,0.852,0.7898,0.9068,True,,unk,Results: The diagnostic model for NMLs integrating ultrasound images and multidimensional clinical information achieved an AUC of,combined
+42138820,12,0,0.967,0.95,0.983,True,,unk,"The nomogram exhibited the highest performance, with area under the curve (AUC) values of",imaging
+42138820,12,1,0.965,0.941,0.99,True,,unk,"The nomogram exhibited the highest performance, with area under the curve (AUC) values of",imaging
+42138820,12,2,0.977,0.949,1.0,True,training,train,"The nomogram exhibited the highest performance, with area under the curve (AUC) values of",imaging
+42146012,11,0,0.949,0.888,1.0,True,,unk,"L architecture (intratumoral + 2-mm peritumoral ROI) with the 2D_DL and clinical models via logistic regression, outperformed individual models externally (AUC",combined
+42146012,11,1,0.821,0.671,0.97,True,,unk,"L architecture (intratumoral + 2-mm peritumoral ROI) with the 2D_DL and clinical models via logistic regression, outperformed individual models externally (AUC",combined
+42146012,11,2,0.789,0.66,0.918,True,,unk,"L architecture (intratumoral + 2-mm peritumoral ROI) with the 2D_DL and clinical models via logistic regression, outperformed individual models externally (AUC",combined
+42146012,11,3,0.824,0.677,0.972,True,,unk,"L architecture (intratumoral + 2-mm peritumoral ROI) with the 2D_DL and clinical models via logistic regression, outperformed individual models externally (AUC",combined
+42146012,12,0,0.949,0.888,1.0,True,external validation,ext,"In direct comparison in the external validation cohort, the combined model demonstrated diagnostic performance comparable to that of senior radiologists (AUC",combined
+42146012,12,1,0.897,0.808,0.986,True,,unk,"In direct comparison in the external validation cohort, the combined model demonstrated diagnostic performance comparable to that of senior radiologists (AUC",combined
+42146868,4,0,0.8,0.76,0.84,True,internal test,int,"In the internal test set (n = 1586; 10.5% reduced RVSF), DeepRV achieved area under the receiver operating characteristic curve (AUROC)",imaging
+42146868,5,0,0.75,0.72,0.77,True,,unk,External validation demonstrated AUROC,imaging
+42146868,6,0,0.83,0.71,0.93,True,,unk,Prospective deployment of DeepRV during STEMI cases at our institution (n = 82) achieved AUROC,imaging
+42170253,9,0,0.88,0.71,0.96,True,external validation,ext,"tomatic segmentation using the VISTA3D segmentation model, the model achieved a Dice coefficient of 0.86±0.17 on the external validation cohort, with an AUC of",imaging
+42224133,5,0,0.844,0.767,0.922,True,internal validation,int,s applied to enhance interpretability through visualization of salient imaging regions.ResultsThe deep learning model based on Pre-IC imaging yielded an AUC of,imaging
+42224133,5,1,0.819,0.725,0.913,True,external validation,ext,s applied to enhance interpretability through visualization of salient imaging regions.ResultsThe deep learning model based on Pre-IC imaging yielded an AUC of,imaging
+42224133,6,0,0.863,0.79,0.936,True,internal,int,The Post-IC-based model demonstrated AUCs of,imaging
+42224133,6,1,0.838,0.753,0.923,True,external validation,ext,The Post-IC-based model demonstrated AUCs of,imaging
+42224133,7,0,0.889,0.824,0.955,True,internal validation,int,"The longitudinal temporal Transformer fusion model achieved higher predictive performance, with AUCs increasing to",combined
+42224133,7,1,0.865,0.791,0.939,True,external validation,ext,"The longitudinal temporal Transformer fusion model achieved higher predictive performance, with AUCs increasing to",combined
+42228942,12,0,0.826,0.731,0.92,True,,unk,"eceiver operating characteristic analysis revealed that Top Weighted Score demonstrated the highest discriminative ability, with area under the curve values of",imaging
+42228942,12,1,0.767,0.668,0.866,True,,unk,"eceiver operating characteristic analysis revealed that Top Weighted Score demonstrated the highest discriminative ability, with area under the curve values of",imaging
+42236611,9,0,0.9,0.717,0.989,True,,unk,TabNet achieved ROC-AUCs of,imaging
+42236611,13,0,0.971,0.876,0.995,True,,unk,A custom FCNN obtained a ROC-AUC of,imaging
+42255226,6,0,0.76,0.674,0.846,True,primary,train,"RESULTS: In the primary cohort, the prediction algorithm achieved an AUC of",imaging
+42255226,8,0,0.873,0.804,0.972,True,,unk,The integrated fusion model (algorithm + CEA + differentiation) demonstrated superior performance with an AUC of,combined
+42255226,9,0,0.838,0.697,0.979,True,external validation,ext,"In the external validation cohort, the fusion model showed promising diagnostic efficacy with an AUC of",combined
+42256004,8,0,0.93,0.91,0.96,True,,unk,"ded the best single-visit prediction (AUROC 0.84, 95% confidence interval [CI]: 0.83-0.85); adding sequential visits via long short-term memory boosted this to",imaging
+42288853,8,0,0.912,0.887,0.936,True,,unk,The XGBoost model demonstrated superior performance with an AUC of,imaging
+42296093,7,0,0.72,0.65,0.79,True,internal test,int,"e final combined model achieved an F1 score of 0.72 (95% CI: 0.65-0.79), a balanced accuracy of 0.69 (95% CI: 0.63, 0.77), and an area under the curve (AUC) of",combined
+42296093,8,0,0.67,0.62,0.72,True,external validation,ext,"On the external validation set, it achieved an F1 score of 0.66 (95% CI: 0.62, 0.70), a balanced accuracy of 0.62 (95% CI: 0.59, 0.66), and an AUC of",imaging
+42298598,9,0,0.85,0.76,0.92,True,validation,int,"itivity) of 87% (77-95), a specificity of 66% (51-80), an F1-score of 0.83 (0.74-0.89) and an area under the receiver operating characteristic curve (AUROC) of",combined
+42298598,10,0,0.93,0.87,0.97,True,independent test,ext,"accuracy of 81% (73-90), a precision of 72% (60-84), a recall of 100% (100-100), a specificity of 63% (48-78), an F1-score of 0.84 (0.75-0.91), and an AUROC of",combined
+42310547,9,0,0.901,0.863,0.936,True,,unk,"In five-fold cross-validation, the model achieved a patient-level AUC of",imaging
+42310547,10,0,0.889,0.793,0.96,True,independent,ext,"In the independent temporal validation cohort (n = 52; prevalence 48.1%), the AUC was",imaging
+42310560,7,0,0.859,0.792,0.926,True,,unk,"models, including CE-T1WI_ViT, CE-T2FLAIR_ViT, and Combined_ViT, demonstrated high predictive accuracy for Ki-67 level in grade 2-4 gliomas, with AUC values of",combined
+42310560,7,1,0.825,0.745,0.906,True,,unk,"models, including CE-T1WI_ViT, CE-T2FLAIR_ViT, and Combined_ViT, demonstrated high predictive accuracy for Ki-67 level in grade 2-4 gliomas, with AUC values of",combined
+42310560,7,2,0.922,0.868,0.976,True,,unk,"models, including CE-T1WI_ViT, CE-T2FLAIR_ViT, and Combined_ViT, demonstrated high predictive accuracy for Ki-67 level in grade 2-4 gliomas, with AUC values of",combined
+42310560,9,0,0.897,0.839,0.954,True,,unk,"hermore, the predictive performance of the Combined_ViT model exceeded that of the three CNN models (ShuffleNet, ResNet50, and DenseNet121), with AUC values of",combined
+42310560,9,1,0.905,0.843,0.966,True,,unk,"hermore, the predictive performance of the Combined_ViT model exceeded that of the three CNN models (ShuffleNet, ResNet50, and DenseNet121), with AUC values of",combined
+42310560,9,2,0.913,0.861,0.965,True,,unk,"hermore, the predictive performance of the Combined_ViT model exceeded that of the three CNN models (ShuffleNet, ResNet50, and DenseNet121), with AUC values of",combined
+42316047,10,0,0.953,0.937,0.967,True,,unk,The AUC in deep learning model showed,imaging
+42316047,10,1,0.906,0.874,0.926,True,,unk,The AUC in deep learning model showed,imaging
+42316047,10,2,0.951,0.938,0.965,True,internal,int,The AUC in deep learning model showed,imaging
+42316181,10,0,0.81,0.78,0.84,True,,unk,The multimodal fusion model achieved an overall AUC of,combined
+42347109,9,0,0.93,0.906,0.954,True,,unk,"Ischemia sensitivity was 59.2% (95% CI 52.1-66.1) and specificity was 99.8% (99.4-100), with an AUC of",imaging
+42351455,7,0,0.88,0.67,0.99,True,,unk,"lts: For Tc-99m normal versus abnormal perfusion classification, the stress-only model achieved the highest cross-validation AUC (0.88 ± 0.067) and test AUC of",combined
+42351455,8,0,0.8,0.71,0.89,True,,unk,"For Tl-201 low-risk versus intermediate/high-risk classification, stress-based models achieved the highest cross-validation AUC (0.88 ± 0.051) and test AUC of",imaging
+42363169,9,0,0.85,0.68,0.97,True,internal validation,int,"RESULTS: For patient-level PAS classification, the internal validation set achieved an AUC of",imaging
+42363169,10,0,0.75,0.53,0.92,True,internal test,int,"In the held-out internal test set, the model achieved an AUC of",imaging
+42363169,11,0,0.72,0.54,0.87,True,external validation,ext,"In the external validation cohort of 54 patients, including 36 PAS and 18 non-PAS cases, the model achieved an AUC of",imaging
+42369144,4,0,0.881,0.793,0.955,True,internal test,int,RESULTS: The self-supervised model achieved area under the receiver operating characteristic curve values of,imaging
+42369144,4,1,0.86,0.81,0.903,True,temporal,ext,RESULTS: The self-supervised model achieved area under the receiver operating characteristic curve values of,imaging
+42369144,4,2,0.86,0.81,0.906,True,external,ext,RESULTS: The self-supervised model achieved area under the receiver operating characteristic curve values of,imaging
+42396274,7,0,0.87,0.85,0.89,True,,unk,"RESULTS: Despite the modest cohort size, the ECG-based agentic search achieved area under the receiver operating characteristic curve (AUCs) of",imaging
+42396274,7,1,0.83,0.8,0.86,True,,unk,"RESULTS: Despite the modest cohort size, the ECG-based agentic search achieved area under the receiver operating characteristic curve (AUCs) of",imaging
+42396274,8,0,0.82,0.8,0.85,True,,unk,Corresponding AUCs for the synthetic TDI-based model were,imaging
+42396274,8,1,0.8,0.77,0.84,True,,unk,Corresponding AUCs for the synthetic TDI-based model were,imaging
+42406258,3,0,1.0,1.0,1.0,True,internal test,int,"For sex classification, it achieved an AUC of",imaging
+42433254,8,0,0.99,0.978,1.0,True,internal validation,int,"RESULTS: In the internal validation cohort, the SE-DAS ResNet achieved an AUC of",imaging
+42434230,9,0,0.901,0.808,0.993,True,internal,int,"RESULTS: The multiparametric fusion model achieved favorable performance, with AUCs of",combined
+42434230,9,1,0.863,0.8,0.926,True,external validation,ext,"RESULTS: The multiparametric fusion model achieved favorable performance, with AUCs of",combined
+42444933,7,0,0.853,0.795,0.906,True,training,train,RESULTS: The model achieved AUCs of,imaging
+42444933,7,1,0.794,0.683,0.886,True,internal testing,int,RESULTS: The model achieved AUCs of,imaging
+42444933,7,2,0.759,0.549,0.925,True,external testing,ext,RESULTS: The model achieved AUCs of,imaging
+42471462,7,0,0.97,0.95,0.99,True,test,int,"RESULTS: In the test set (n = 607), the model demonstrated excellent performance: sensitivity 91.4%, specificity 93.1%, and AUC",imaging
+42487970,7,0,0.96,0.95,0.97,True,,unk,"ant recurrence, achieving an accuracy of 0.98 (95% CI: 0.96-1.00), a recall of 0.95 (95% CI: 0.92-0.98), an F1 score of 0.98 (95% CI: 0.97-0.99), and an AUC of",imaging
+42510454,6,0,0.74,0.65,0.83,True,,unk,"Results: THDA-ResNet achieved the highest AUC,",imaging
+42510454,8,0,0.66,0.49,0.81,True,,unk,External AUC was,imaging
+42536294,8,0,0.89,0.82,0.95,True,internal,int,"On the internal hold-out test set (n = 116), the model achieved an F1 score of 0.83 (95% confidence interval 0.75-0.89) and an AUROC of",imaging
+42536294,9,0,0.99,0.96,1.0,True,,unk,"Performance remained robust on external validation (n = 95), with an AUROC of",imaging
+42541590,9,0,0.694,0.58,0.79,True,,unk,"TS: ChatGPT showed a sensitivity of 68.0% (95% CI 48.4-82.8%), specificity of 62.7% (59.6-65.7%), PPV of 4.5% (2.8-7.1%), NPV of 98.7% (97.4-99.3%), and AUC of",imaging
+42568363,6,0,0.777,0.765,0.788,True,,unk,"RESULTS: During internal testing, the proposed framework yielded an AUC of",imaging
+42568363,7,0,0.778,0.749,0.806,True,external,ext,"When applied to the external cohort, the algorithm's discriminative ability remained consistent with an AUC of",imaging
+42588692,7,0,0.885,0.848,0.921,True,,unk,RESULTS: TITAN and CHIEF achieved comparable performance for ER (TITAN AUROC:,imaging
+42588692,7,1,0.954,0.94,0.964,True,,unk,RESULTS: TITAN and CHIEF achieved comparable performance for ER (TITAN AUROC:,imaging
+42588692,8,0,0.877,0.831,0.914,True,,unk,CHIEF AUROC:,imaging
+42588692,8,1,0.955,0.938,0.969,True,,unk,CHIEF AUROC:,imaging
+42620714,7,0,0.8,0.7,0.901,True,independent external,ext,"RESULTS: In the independent external cohort, the multimodal fusion model achieved an area under the receiver operating characteristic curve (AUC) of",combined
+42653025,6,0,0.547,0.42,0.665,True,,unk,".629), balanced accuracy of 0.555 (95% CI, 0.465-0.637), sensitivity of 0.286 (95% CI, 0.160-0.415), specificity of 0.825 (95% CI, 0.694-0.930), and ROC AUC of",imaging
+42666252,7,0,0.947,0.907,0.98,True,test,int,"In the strict non-overlap test set, the support vector machine achieved the highest AUC of",imaging
+42666252,8,0,0.926,0.878,0.964,True,,unk,Random forest achieved an AUC of,imaging
+42676780,8,0,0.937,0.932,0.991,True,internal testing,int,"RESULTS: The internal testing set revealed the following: AUC,",imaging
+42676780,9,0,0.882,0.839,0.894,True,external testing,ext,"The external testing set revealed the following: AUC,",imaging
+42682294,9,0,0.92,0.86,0.97,True,internal validation,int,"RESULTS: In retrospective validation, the KB-GCN model achieved an area under the curve (AUC) of",imaging
+42682294,9,1,0.88,0.81,0.94,True,external validation,ext,"RESULTS: In retrospective validation, the KB-GCN model achieved an area under the curve (AUC) of",imaging
+42682383,6,0,0.911,0.864,0.949,True,internal test,int,RESULTS: The model achieved AUROCs of,imaging
+42682383,6,1,0.873,0.792,0.935,True,external test,ext,RESULTS: The model achieved AUROCs of,imaging
+42701503,7,0,0.959,0.942,0.976,True,training,train,RESULTS: The proposed model achieved promising results with AUC values of,imaging
+42701503,7,1,0.885,0.839,0.931,True,internal validation,int,RESULTS: The proposed model achieved promising results with AUC values of,imaging
+42701503,7,2,0.908,0.862,0.954,True,external validation,ext,RESULTS: The proposed model achieved promising results with AUC values of,imaging
+42712103,11,0,0.881,0.836,0.926,True,training,train,"The peritumoral (5mm) fusion model (IntraPeri5mm_Fusion) outperformed the intratumoral fusion model, achieving AUCs of",combined
+42712103,11,1,0.772,0.651,0.893,True,internal test,int,"The peritumoral (5mm) fusion model (IntraPeri5mm_Fusion) outperformed the intratumoral fusion model, achieving AUCs of",combined
+42712103,11,2,0.757,0.624,0.891,True,external test,ext,"The peritumoral (5mm) fusion model (IntraPeri5mm_Fusion) outperformed the intratumoral fusion model, achieving AUCs of",combined
+42712103,12,0,0.886,0.842,0.93,True,,unk,"The Combined model yielded further incremental improvement, with AUCs reaching",combined
+42712103,12,1,0.805,0.691,0.918,True,,unk,"The Combined model yielded further incremental improvement, with AUCs reaching",combined
+42712103,12,2,0.793,0.668,0.918,True,,unk,"The Combined model yielded further incremental improvement, with AUCs reaching",combined
+42718428,4,0,0.94,0.84,1.0,True,testing,int,RESULTS: The ensemble model achieved an AUC of,combined
+42718428,4,1,0.77,0.71,0.82,True,external validation,ext,RESULTS: The ensemble model achieved an AUC of,combined
+42718428,5,0,0.81,0.64,0.94,True,validation,int,The ensemble yielded AUCs of,imaging
+42718428,5,1,0.68,0.47,0.88,True,testing,int,The ensemble yielded AUCs of,imaging
+42718428,5,2,0.57,0.52,0.63,True,external validation,ext,The ensemble yielded AUCs of,imaging
+42719259,8,0,0.982,0.966,0.993,True,,unk,The model achieved excellent discrimination with an area under the curve of,imaging
+42769216,7,0,0.922,0.887,0.954,True,training,train,RESULTS: The DPPC model achieved ROC-AUCs of,imaging
+42769216,7,1,0.928,0.864,0.978,True,internal test,int,RESULTS: The DPPC model achieved ROC-AUCs of,imaging
+42793777,10,0,0.87,0.75,0.94,True,,unk,Co-infection-class AUC was,imaging
+42806837,2,0,0.822,0.725,0.92,True,independent external test,ext,The model achieves an area under the receiver operating characteristic curve of,imaging
+42866171,9,0,0.83,0.76,0.9,True,internal validation,int,"In internal validation, the AST model achieved an AUC of",imaging
+42866171,9,1,0.78,0.69,0.86,True,internal validation,int,"In internal validation, the AST model achieved an AUC of",imaging
+42866171,10,0,0.81,0.71,0.92,True,external validation,ext,"In external validation, the AST model achieved an AUC of",imaging
+42866171,10,1,0.56,0.41,0.7,True,external validation,ext,"In external validation, the AST model achieved an AUC of",imaging
+42890032,8,0,0.969,0.911,1.0,True,,unk,"For malignancy prediction, the TPC-Perceiver attained an AUC of",imaging
+42909320,7,0,0.97,0.92,1.0,True,internal test,int,"In the internal test set, the AI model achieved an AUC of",imaging
+42955597,6,0,0.897,0.862,0.932,True,training,train,RESULTS: The combined model achieved area under the curve (AUCs) of,combined
+42955597,6,1,0.909,0.861,0.958,True,internal test,int,RESULTS: The combined model achieved area under the curve (AUCs) of,combined
+42955597,6,2,0.91,0.856,0.964,True,external test,ext,RESULTS: The combined model achieved area under the curve (AUCs) of,combined
+42963328,4,0,0.87,0.83,0.9,True,,unk,AUCs for binary tau positivity in these regions were,imaging
+42963328,4,1,0.88,0.84,0.91,True,,unk,AUCs for binary tau positivity in these regions were,imaging
+42989490,12,0,0.704,0.66,0.748,True,,unk,The Elastic Net Cox regression model incorporating both feature sets achieved the highest AUC of,imaging
+42992073,5,0,0.788,0.691,0.873,True,external test,ext,"In the external test cohort, the CCTA-only model achieved an area under the receiver operating characteristic curve (AUC) of",imaging
+42992073,6,0,0.805,0.713,0.886,True,,unk,Adding clinical variables resulted in an AUC of,clinical
+42996550,8,0,0.887,0.819,0.954,True,internal validation,int,"The comprehensive 2D + multi-channel + clinical model showed the best performance for the differentiation of HCC from MF-ICC, achieving an AUC of",clinical

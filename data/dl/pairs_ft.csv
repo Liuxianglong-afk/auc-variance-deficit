@@ -1,0 +1,20 @@
+pmid,sent,model_cls,comp,auc_a,lo_a,hi_a,auc_ext,lo_ext,hi_ext,n_ext_in_sent,model_txt,headline,source
+34114091,8,imaging,int_ext,0.811,0.803,0.819,0.798,0.789,0.807,1,"With 50 times iterations of model training and validation, the model achieved an AUC of 0.811 (95% c",True,fulltext
+34131803,7,imaging,int_ext,0.9,0.88,0.93,0.78,0.68,0.89,1,"The AUCs of our model on training, validating, and testing datasets were 0.90, 0.88, and 0.86, respe",True,fulltext
+34178641,7,imaging,int_ext,0.861,0.765,0.957,0.791,0.678,0.904,1,RESULTS: The DL model exhibited relatively good performance in all cohorts [AUC: 0.861 in the intern,True,fulltext
+34648114,6,imaging,int_ext,0.95,0.94,0.96,0.54,0.51,0.57,1,RESULTS: The DCNN achieved AUC of 0.95 and 0.54 for identifying pneumonia on internal and external t,True,fulltext
+35832446,9,imaging,int_ext,0.903,0.884,0.922,0.919,0.871,0.967,1,Model 3 exhibited the best diagnostic accuracy and had an area under the curve of 0.903 in n the int,True,fulltext
+38826743,7,imaging,int_ext,0.643,0.524,0.761,0.785,0.729,0.842,1,"RESULTS: The TD AUC of DLP_DWI was 0.643 in internal test set, and 0.785 in the external dataset.",True,fulltext
+38947897,5,imaging,int_ext,0.816,0.715,0.917,0.817,0.722,0.913,1,"RESULTS: The LR model achieved AUC values of 0.892, 0.816, and 0.817 for the training, internal vali",True,fulltext
+39144039,9,imaging,int_ext,0.981,0.957,0.993,0.99,0.964,0.999,1,"An accuracy of 0.964/0.920, and an area under the receiver operating characteristic curve (AUC) of 0",True,fulltext
+39806736,8,imaging,int_ext,0.88,0.81,0.95,0.83,0.75,0.91,1,"The area under the curve in the training, validation, internal test, and external test sets were 0.8",True,fulltext
+40302359,8,imaging,int_ext,0.84,0.83,0.86,0.85,0.76,0.92,1,"Among the three efficacy prediction models assessed, AE-3DNet performed superiorly with AUC values o",True,fulltext
+40555751,6,imaging,int_ext,0.97,0.962,0.978,0.927,0.922,0.931,1,"First, we developed GRAPE using a cohort from 2 centers in China (3,470 GC and 3,250 non-GC cases) a",True,fulltext
+40610844,6,imaging,int_ext,0.793,0.676,0.883,0.801,0.706,0.877,1,RESULTS: The AD-DL model demonstrated the highest diagnostic performance and generalizability with a,True,fulltext
+40683923,2,imaging,int_ext,0.903,0.835,0.959,0.868,0.848,0.888,1,"Using DWI and FLAIR images from patients scanned within 24 h of symptom onset, the modified U-Net ge",True,fulltext
+40785235,10,imaging,int_ext,0.973,0.953,0.992,0.967,0.939,0.995,1,"The area under the curve values were 0.953, 0.973, and 0.967 for the training, internal validation, ",True,fulltext
+40846341,10,combined,int_ext,0.911,0.8385,0.9826,0.871,0.7663,0.9762,1,"RESULTS: In the internal and external validation cohorts, the combined model (area under curve (AUC)",True,fulltext
+41491286,3,imaging,int_ext,0.882,0.816,0.948,0.854,0.802,0.906,1,"In a multicenter cohort of 1339 patients, BSTNet demonstrated robust performance: area under the rec",True,fulltext
+42244944,10,combined,int_ext,0.932,0.9,0.96,0.848,0.781,0.915,1,"The integrated Model D achieved superior performance with AUC of 0.970 in the training set, 0.932 in",True,fulltext
+42876796,12,imaging,int_ext,0.816,0.701,0.93,0.737,0.593,0.881,1,"The Morph-CIP Model enables risk stratification through training set (AUC 0.836, 0.768, 0.765 for 1-",True,fulltext
+42935707,14,combined,int_ext,0.971,0.955,0.987,0.958,0.935,0.981,1,"The ensemble predictive model, which integrated the clinical predictors and DL features, demonstrate",True,fulltext

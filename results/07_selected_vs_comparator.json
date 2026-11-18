@@ -1,0 +1,75 @@
+{
+ "auc_int_all": {
+  "k_studies": 19,
+  "k_comparator_pairs": 20,
+  "R_selected": 0.619,
+  "R_selected_ci95": [
+   0.139,
+   1.352
+  ],
+  "R_comparators": 0.593,
+  "R_comparators_ci95": [
+   0.077,
+   1.483
+  ],
+  "mean_drop_selected": 0.0307,
+  "mean_drop_comparators": 0.0318,
+  "share_selected_absz_below_comparator_median": 0.316,
+  "sign_test_p": 0.167
+ },
+ "auc_int_radiomics": {
+  "k_studies": 15,
+  "k_comparator_pairs": 15,
+  "R_selected": 0.446,
+  "R_selected_ci95": [
+   0.105,
+   0.921
+  ],
+  "R_comparators": 0.24,
+  "R_comparators_ci95": [
+   0.052,
+   0.601
+  ],
+  "mean_drop_selected": 0.0219,
+  "mean_drop_comparators": 0.0171,
+  "share_selected_absz_below_comparator_median": 0.333,
+  "sign_test_p": 0.302
+ },
+ "auc_ext_all": {
+  "k_studies": 19,
+  "k_comparator_pairs": 20,
+  "R_selected": 0.784,
+  "R_selected_ci95": [
+   0.238,
+   1.642
+  ],
+  "R_comparators": 0.44,
+  "R_comparators_ci95": [
+   0.056,
+   1.131
+  ],
+  "mean_drop_selected": 0.022,
+  "mean_drop_comparators": 0.0401,
+  "share_selected_absz_below_comparator_median": 0.263,
+  "sign_test_p": 0.0636
+ },
+ "auc_ext_radiomics": {
+  "k_studies": 15,
+  "k_comparator_pairs": 15,
+  "R_selected": 0.592,
+  "R_selected_ci95": [
+   0.16,
+   1.162
+  ],
+  "R_comparators": 0.099,
+  "R_comparators_ci95": [
+   0.042,
+   0.166
+  ],
+  "mean_drop_selected": 0.0109,
+  "mean_drop_comparators": 0.0281,
+  "share_selected_absz_below_comparator_median": 0.267,
+  "sign_test_p": 0.118
+ },
+ "note": "model pairs = sentences with both int and ext AUC (+95% CI); selected = max within study by the named criterion"
+}

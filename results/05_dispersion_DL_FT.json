@@ -1,0 +1,151 @@
+{
+ "primary_headline_int_ext": {
+  "k_pairs": 66,
+  "k_studies": 66,
+  "mean_drop": 0.0462,
+  "weighted_mean_drop": 0.0431,
+  "observed_sd_drop": 0.0741,
+  "rms_sampling_sd": 0.0552,
+  "Q": 817.1,
+  "df": 65,
+  "H2": 12.571,
+  "P_lower": 1.0,
+  "Q0_centered_zero": 1289.6,
+  "P0_lower": 1.0,
+  "egger_slope_d_on_se": 0.191,
+  "share_ext_ge_a": 0.258,
+  "H2_boot_ci95": [
+   2.499,
+   29.511
+  ]
+ },
+ "primary_logit": {
+  "k_pairs": 66,
+  "k_studies": 66,
+  "mean_drop": 0.4439,
+  "weighted_mean_drop": 0.4386,
+  "observed_sd_drop": 0.6964,
+  "rms_sampling_sd": 0.4869,
+  "Q": 703.2,
+  "df": 65,
+  "H2": 10.819,
+  "P_lower": 1.0,
+  "Q0_centered_zero": 1123.4,
+  "P0_lower": 1.0,
+  "egger_slope_d_on_se": 0.194,
+  "share_ext_ge_a": 0.258
+ },
+ "control_train_ext_headline": {
+  "k_pairs": 11,
+  "k_studies": 11,
+  "mean_drop": 0.0442,
+  "weighted_mean_drop": 0.0282,
+  "observed_sd_drop": 0.0482,
+  "rms_sampling_sd": 0.0533,
+  "Q": 11.8,
+  "df": 10,
+  "H2": 1.176,
+  "P_lower": 0.699,
+  "Q0_centered_zero": 18.7,
+  "P0_lower": 0.934,
+  "egger_slope_d_on_se": 1.061,
+  "share_ext_ge_a": 0.273,
+  "H2_boot_ci95": [
+   0.385,
+   1.679
+  ]
+ },
+ "control_clinical_int_ext": "k < 3",
+ "all_models_int_ext": {
+  "k_pairs": 68,
+  "k_studies": 66,
+  "mean_drop": 0.0487,
+  "weighted_mean_drop": 0.0432,
+  "observed_sd_drop": 0.0767,
+  "rms_sampling_sd": 0.0558,
+  "Q": 823.1,
+  "df": 67,
+  "H2": 12.284,
+  "P_lower": 1.0,
+  "Q0_centered_zero": 1298.4,
+  "P0_lower": 1.0,
+  "egger_slope_d_on_se": 0.231,
+  "share_ext_ge_a": 0.25,
+  "H2_boot_ci95": [
+   2.595,
+   29.103
+  ]
+ },
+ "sens_no_ceiling": {
+  "k_pairs": 52,
+  "k_studies": 52,
+  "mean_drop": 0.0389,
+  "weighted_mean_drop": 0.0306,
+  "observed_sd_drop": 0.0592,
+  "rms_sampling_sd": 0.0579,
+  "Q": 201.0,
+  "df": 51,
+  "H2": 3.941,
+  "P_lower": 1.0,
+  "Q0_centered_zero": 308.4,
+  "P0_lower": 1.0,
+  "egger_slope_d_on_se": 0.225,
+  "share_ext_ge_a": 0.269
+ },
+ "sens_int_label_internal_or_test": {
+  "k_pairs": 48,
+  "k_studies": 48,
+  "mean_drop": 0.047,
+  "weighted_mean_drop": 0.0394,
+  "observed_sd_drop": 0.0587,
+  "rms_sampling_sd": 0.0567,
+  "Q": 253.1,
+  "df": 47,
+  "H2": 5.385,
+  "P_lower": 1.0,
+  "Q0_centered_zero": 539.0,
+  "P0_lower": 1.0,
+  "egger_slope_d_on_se": 0.178,
+  "share_ext_ge_a": 0.229
+ },
+ "same_studies_train_vs_int": {
+  "k": 10,
+  "int_ext": {
+   "k_pairs": 10,
+   "k_studies": 10,
+   "mean_drop": 0.01,
+   "weighted_mean_drop": 0.0073,
+   "observed_sd_drop": 0.0311,
+   "rms_sampling_sd": 0.0659,
+   "Q": 5.6,
+   "df": 9,
+   "H2": 0.623,
+   "P_lower": 0.221,
+   "Q0_centered_zero": 5.9,
+   "P0_lower": 0.178,
+   "egger_slope_d_on_se": 0.115,
+   "share_ext_ge_a": 0.5
+  },
+  "train_ext": {
+   "k_pairs": 10,
+   "k_studies": 10,
+   "mean_drop": 0.0476,
+   "weighted_mean_drop": 0.0304,
+   "observed_sd_drop": 0.0494,
+   "rms_sampling_sd": 0.0549,
+   "Q": 11.4,
+   "df": 9,
+   "H2": 1.268,
+   "P_lower": 0.752,
+   "Q0_centered_zero": 18.6,
+   "P0_lower": 0.955,
+   "egger_slope_d_on_se": 1.06,
+   "share_ext_ge_a": 0.3
+  }
+ },
+ "extraction_precision": {
+  "tuning_set": "38/39 after tuning (verify40_gold.csv; 1 multiclass removed)",
+  "independent_fresh": "28/30 before final fix (verify30_fresh_ids.csv)"
+ },
+ "note": "data data/dl_FT; PubMed pool (2020-2026, PMC); rule-based abstract extraction requiring 95% CI; one headline model per study (combined > imaging), first external cohort"
+}

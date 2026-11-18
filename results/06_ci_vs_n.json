@@ -1,0 +1,21 @@
+{
+ "k_with_both_n": 57,
+ "k_headline": 99,
+ "se_ratio_ci_over_hmmin": {
+  "median": 1.01,
+  "q25_q75": [
+   0.96,
+   1.11
+  ],
+  "share_lt_0.9": 0.175
+ },
+ "R_reported_ci": 0.457,
+ "R_hm_min_upper_bound": 0.452,
+ "R_hm_ci95": [
+  0.255,
+  0.716
+ ],
+ "share_boot_R_hm_lt1": 1.0,
+ "n_int_median": 74.0,
+ "n_ext_median": 80.0
+}

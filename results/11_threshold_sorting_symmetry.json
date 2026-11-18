@@ -1,0 +1,138 @@
+{
+ "a_radiomics": {
+  "k": 181,
+  "ext_ge_int": 54,
+  "ext_ge_int_plus_0.03": 16,
+  "pct_ext_ge_int_plus_0.03": 8.8
+ },
+ "a_DL": {
+  "k": 66,
+  "ext_ge_int": 17,
+  "ext_ge_int_plus_0.03": 1,
+  "pct_ext_ge_int_plus_0.03": 1.5
+ },
+ "b_sorting_artifact_radiomics": {
+  "observed": {
+   "R_all": 0.52,
+   "R_high": 0.32
+  },
+  "seed": 42,
+  "reps": 2000,
+  "sim": {
+   "tau0.0_sigma0.0": {
+    "R_all": 1.002,
+    "R_low": 0.996,
+    "R_mid": 0.998,
+    "R_high": 1.006,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.0_sigma0.1": {
+    "R_all": 0.988,
+    "R_low": 1.033,
+    "R_mid": 1.02,
+    "R_high": 0.968,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.0_sigma0.2": {
+    "R_all": 0.962,
+    "R_low": 1.139,
+    "R_mid": 1.064,
+    "R_high": 0.899,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.0_sigma0.3": {
+    "R_all": 0.916,
+    "R_low": 1.359,
+    "R_mid": 1.128,
+    "R_high": 0.792,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.0_sigma0.5": {
+    "R_all": 0.782,
+    "R_low": 2.051,
+    "R_mid": 1.286,
+    "R_high": 0.564,
+    "p_Rhigh_le_0.32": 0.0195
+   },
+   "tau0.029_sigma0.0": {
+    "R_all": 1.17,
+    "R_low": 1.599,
+    "R_mid": 1.208,
+    "R_high": 1.089,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.029_sigma0.1": {
+    "R_all": 1.158,
+    "R_low": 1.635,
+    "R_mid": 1.226,
+    "R_high": 1.059,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.029_sigma0.2": {
+    "R_all": 1.129,
+    "R_low": 1.786,
+    "R_mid": 1.283,
+    "R_high": 0.98,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.029_sigma0.3": {
+    "R_all": 1.072,
+    "R_low": 2.032,
+    "R_mid": 1.351,
+    "R_high": 0.864,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.029_sigma0.5": {
+    "R_all": 0.93,
+    "R_low": 2.898,
+    "R_mid": 1.537,
+    "R_high": 0.633,
+    "p_Rhigh_le_0.32": 0.006
+   },
+   "tau0.05_sigma0.0": {
+    "R_all": 1.519,
+    "R_low": 2.811,
+    "R_mid": 1.626,
+    "R_high": 1.276,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.05_sigma0.1": {
+    "R_all": 1.505,
+    "R_low": 2.837,
+    "R_mid": 1.657,
+    "R_high": 1.244,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.05_sigma0.2": {
+    "R_all": 1.463,
+    "R_low": 3.032,
+    "R_mid": 1.707,
+    "R_high": 1.157,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.05_sigma0.3": {
+    "R_all": 1.394,
+    "R_low": 3.372,
+    "R_mid": 1.793,
+    "R_high": 1.026,
+    "p_Rhigh_le_0.32": 0.0
+   },
+   "tau0.05_sigma0.5": {
+    "R_all": 1.194,
+    "R_low": 4.569,
+    "R_mid": 1.997,
+    "R_high": 0.747,
+    "p_Rhigh_le_0.32": 0.0005
+   }
+  }
+ },
+ "c_ci_symmetry_radiomics": {
+  "n_intervals": 362,
+  "pct_symmetric_le0.01": 65.2,
+  "pct_lower_longer": 32.9,
+  "pct_upper_longer": 1.9,
+  "n_symmetric": 236,
+  "n_lower_longer": 119,
+  "n_upper_longer": 7
+ }
+}

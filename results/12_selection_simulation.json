@@ -1,0 +1,153 @@
+{
+ "k": 181,
+ "observed": {
+  "R": 0.523,
+  "R_low": 1.608,
+  "R_mid": 0.659,
+  "R_high": 0.316,
+  "mean_drop": 0.0251
+ },
+ "grid": {
+  "mu": "0-0.12 step 0.01",
+  "tau": [
+   0,
+   0.01,
+   0.02,
+   0.03,
+   0.04,
+   0.05,
+   0.06,
+   0.08,
+   0.1,
+   0.12
+  ],
+  "c": "0.01-0.20 step 0.01"
+ },
+ "n_per_cell": 20000,
+ "seed": 42,
+ "fits": {
+  "sigma0.0": {
+   "none": {
+    "mu": 0.02,
+    "tau": 0,
+    "c": null,
+    "share_reported": 1.0,
+    "mean_drop": 0.021,
+    "R": 1.007,
+    "R_low": 1.015,
+    "R_mid": 1.01,
+    "R_high": 1.004,
+    "dist": 0.683,
+    "at_grid_edge": true
+   },
+   "one_sided": {
+    "mu": 0.08,
+    "tau": 0.05,
+    "c": 0.1,
+    "share_reported": 0.608,
+    "mean_drop": 0.0274,
+    "R": 0.666,
+    "R_low": 1.281,
+    "R_mid": 0.676,
+    "R_high": 0.509,
+    "dist": 0.281,
+    "at_grid_edge": false
+   },
+   "two_sided": {
+    "mu": 0.03,
+    "tau": 0.04,
+    "c": 0.09,
+    "share_reported": 0.767,
+    "mean_drop": 0.0296,
+    "R": 0.501,
+    "R_low": 1.524,
+    "R_mid": 0.64,
+    "R_high": 0.291,
+    "dist": 0.207,
+    "at_grid_edge": false
+   }
+  },
+  "sigma0.11": {
+   "none": {
+    "mu": 0.02,
+    "tau": 0,
+    "c": null,
+    "share_reported": 1.0,
+    "mean_drop": 0.021,
+    "R": 0.995,
+    "R_low": 1.057,
+    "R_mid": 1.016,
+    "R_high": 0.978,
+    "dist": 0.667,
+    "at_grid_edge": true
+   },
+   "one_sided": {
+    "mu": 0.09,
+    "tau": 0.05,
+    "c": 0.09,
+    "share_reported": 0.494,
+    "mean_drop": 0.0233,
+    "R": 0.614,
+    "R_low": 1.123,
+    "R_mid": 0.625,
+    "R_high": 0.468,
+    "dist": 0.262,
+    "at_grid_edge": false
+   },
+   "two_sided": {
+    "mu": 0.03,
+    "tau": 0.04,
+    "c": 0.09,
+    "share_reported": 0.767,
+    "mean_drop": 0.0296,
+    "R": 0.496,
+    "R_low": 1.564,
+    "R_mid": 0.642,
+    "R_high": 0.286,
+    "dist": 0.208,
+    "at_grid_edge": false
+   }
+  },
+  "sigma0.2": {
+   "none": {
+    "mu": 0.03,
+    "tau": 0,
+    "c": null,
+    "share_reported": 1.0,
+    "mean_drop": 0.03,
+    "R": 0.938,
+    "R_low": 1.092,
+    "R_mid": 1.058,
+    "R_high": 0.871,
+    "dist": 0.631,
+    "at_grid_edge": true
+   },
+   "one_sided": {
+    "mu": 0.09,
+    "tau": 0.05,
+    "c": 0.09,
+    "share_reported": 0.494,
+    "mean_drop": 0.0233,
+    "R": 0.596,
+    "R_low": 1.218,
+    "R_mid": 0.65,
+    "R_high": 0.437,
+    "dist": 0.215,
+    "at_grid_edge": false
+   },
+   "two_sided": {
+    "mu": 0.03,
+    "tau": 0.04,
+    "c": 0.09,
+    "share_reported": 0.767,
+    "mean_drop": 0.0296,
+    "R": 0.484,
+    "R_low": 1.663,
+    "R_mid": 0.64,
+    "R_high": 0.272,
+    "dist": 0.215,
+    "at_grid_edge": false
+   }
+  }
+ }
+}

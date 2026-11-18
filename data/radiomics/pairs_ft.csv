@@ -1,0 +1,83 @@
+pmid,sent,model_cls,comp,auc_a,lo_a,hi_a,auc_ext,lo_ext,hi_ext,n_ext_in_sent,model_txt,headline,source
+32923388,9,combined,int_ext,0.909,0.785,1.0,0.905,0.841,0.97,1,"The combination model showed good discrimination, and the AUC of nomogram was 0.971, 0.909, and 0.90",True,fulltext
+34568038,8,imaging,int_ext,0.785,0.663,0.906,0.808,0.697,0.919,1,"RESULTS: The area under the curve (AUC) values of model 1 were 0.820, 0.785, and 0.808 in the traini",True,fulltext
+34631512,5,combined,int_ext,0.819,0.645,0.993,0.824,0.741,0.908,1,"RESULTS: The clinical-radiomics nomogram, which comprised Radscore and three clinical variables, sho",True,fulltext
+35610588,10,combined,int_ext,0.899,0.839,0.96,0.805,0.681,0.929,1,"For the combined model, five radiomics features, age, necrosis, and pleural attachment were independ",True,fulltext
+35720336,7,combined,int_ext,0.963,0.874,0.999,0.927,0.688,0.975,1,RESULTS: The fusion model achieved the significantly greatest predictive performance in the internal,True,fulltext
+35884499,10,imaging,int_ext,0.73,0.63,0.82,0.75,0.55,0.94,1,The radiomic model yielded an AUC of 0.73 in the internal cohort and 0.75 in the external cohort.,True,fulltext
+36611159,9,combined,int_ext,0.938,0.805,0.98,0.893,0.754,0.968,1,"The radiomics nomogram inclusive of the unenhanced model, maximum diameter, and aldosterone showed t",True,fulltext
+37568658,9,imaging,int_ext,0.731,0.552,0.868,0.729,0.529,0.878,1,"The radiomic-score model achieved good discriminability, with AUCs of 0.963, 0.731, and 0.729 for th",True,fulltext
+37601775,8,combined,int_ext,0.867,0.798,0.925,0.82,0.735,0.898,1,"The accuracy, sensitivity, specificity and AUC of the combined model were 98, 100, 97.3% and 0.999 f",True,fulltext
+37662514,7,imaging,int_ext,0.899,0.887,0.911,0.885,0.867,0.903,1,"FINDINGS: For SLN prediction, the top-performing model (i.e., the CNN algorithm) achieved encouragin",True,fulltext
+37891611,9,imaging,int_ext,0.898,0.834,0.964,0.873,0.806,0.938,1,RESULTS: The deep learning model with channel attention mechanism achieved area under the curves (AU,True,fulltext
+37907928,6,imaging,int_ext,0.81,0.7,0.91,0.79,0.67,0.91,1,RESULTS: The model constructed with pre-NAT mpMRI had favorable accuracy for prediction of non-respo,True,fulltext
+37933063,6,imaging,int_ext,0.855,0.819,0.89,0.788,0.716,0.86,1,"The AUCs of the DL-grayscale were 0.855 and 0.788 in the internal and external validation cohorts, r",True,fulltext
+38179695,9,imaging,int_ext,0.81,0.674,0.948,0.785,0.614,0.957,1,"The RS included 13 CT features that yielded AUCs of 12-month irPFS of 0.787, 0.810 and 0.785 in the ",True,fulltext
+38407213,7,combined,int_ext,0.954,0.889,1.0,0.902,0.83,0.974,1,The radiomic nomogram for predicting clinical response showed good calibration and discrimination in,True,fulltext
+38625419,9,imaging,int_ext,0.814,0.69,0.93,0.717,0.57,0.86,1,"For GS prediction, the AUC of the radiomics models was 0.811, 0.814, and 0.717 in the training, inte",True,fulltext
+38846980,9,combined,int_ext,0.828,0.713,0.927,0.839,0.719,0.949,1,"In the final three models, the combined model based on clinical features and rad-score showed good d",True,fulltext
+38919538,10,imaging,int_ext,0.907,0.86,0.954,0.862,0.799,0.925,1,"The deep learning model yielded an ACC of 0.875 and AUC of 0.907 for the internal, and ACC of 0.833 ",True,fulltext
+38982267,7,combined,int_ext,0.837,0.765,0.909,0.809,0.666,0.952,1,"The radiomics-based nomogram exhibited excellent performance, achieving the highest AUC values of 0.",True,fulltext
+39080809,13,imaging,int_ext,0.79,0.7,0.88,0.78,0.67,0.89,1,"RESULTS: Among the radiomic models, the multiregional model representing multiscale heterogeneity (M",True,fulltext
+39164351,6,imaging,int_ext,0.943,0.903,0.984,0.934,0.879,0.99,1,"Among the models, RF achieved the best results, with an AUC of 0.998, 0.943, and 0.934 in the traini",True,fulltext
+39574430,10,imaging,int_ext,0.98,0.95,1.0,0.91,0.83,0.98,1,The AUC of the model with ADC620 was 0.98 in the internal test set and 0.91 in the external test set,True,fulltext
+39698957,7,imaging,int_ext,0.982,0.959,1.0,0.976,0.953,0.994,1,"RESULTS: The first-stage model demonstrated excellent diagnostic accuracy for csPCa, achieving AUCs ",True,fulltext
+39830743,11,imaging,int_ext,0.918,0.823,0.972,0.766,0.658,0.854,1,The AUC of deep learning model was 0.918 for the internal test set and 0.766 for the external test s,True,fulltext
+39875517,8,imaging,int_ext,0.946,0.902,0.982,0.86,0.806,0.91,1,"The IDH mutation identification model achieved area under the ROC curve (AUC) values of 0.948, 0.946",True,fulltext
+40022261,8,combined,int_ext,0.814,0.735,0.892,0.769,0.695,0.842,1,"This fusion model demonstrated superior diagnostic performance, with AUC values of 0.818, 0.814, and",True,fulltext
+40079653,7,imaging,int_ext,0.93,0.854,1.0,0.903,0.71,1.0,1,"RESULTS: The AUC of RDLCSM developed based on LightGBM classifier was 0.953 in the training cohort, ",True,fulltext
+40140428,10,combined,int_ext,0.85,0.761,0.915,0.804,0.718,0.874,1,"Furthermore, the radiomics nomogram, integrating the Rad-score with clinical predictors, demonstrate",True,fulltext
+40159327,6,imaging,int_ext,0.779,0.688,0.87,0.615,0.465,0.766,1,"The RHC model showed strong predictive performance, with area under the curve (AUC) values of 0.805,",True,fulltext
+40289183,8,combined,int_ext,0.945,0.859,0.986,0.896,0.806,0.953,1,"The AUC for combined intratumoral and peritumoral radiomic signature was 0.956, 0.945, and 0.896 in ",True,fulltext
+40330633,7,imaging,int_ext,0.8,0.726,0.875,0.77,0.72,0.819,1,"The Rad-score model demonstrated an area under the curve (AUC) of 0.858, 0.800, and 0.770 for the tr",True,fulltext
+40379768,7,combined,int_ext,0.95,0.922,0.978,0.877,0.764,0.99,1,"The combined model demonstrated superior discriminative ability, achieving the highest AUCs of 0.983",True,fulltext
+40391155,10,imaging,int_ext,0.929,0.885,0.963,0.852,0.758,0.934,1,"Five ML models were established, among which the random forest (RF) model presented the best predict",True,fulltext
+40596905,7,combined,int_ext,0.706,0.698,0.715,0.756,0.747,0.769,1,RESULTS: The predictive efficacy of fusion model for tumour invasion depth was higher than that of r,True,fulltext
+40596950,5,imaging,int_ext,0.96,0.927,0.995,0.786,0.675,0.897,1,RESULTS: The radiomic model based on LR in the internal validation group and external validation gro,True,fulltext
+40597775,6,combined,int_ext,0.73,0.523,0.936,0.822,0.627,1.0,1,"RESULTS: In Cohort 1, the AUC values for intratumoral, peritumoral, and combined radiomics models we",True,fulltext
+40615943,7,combined,int_ext,0.734,0.6093,0.8578,0.743,0.6347,0.851,1,"The nomogram model integrating perilesional, combined intralesional and perilesional, and intralesio",True,fulltext
+40760028,12,combined,int_ext,0.979,0.941,1.0,0.945,0.895,0.995,1,"The combined nomogram model exhibited the highest diagnostic accuracy, with AUC values of 0.994, 0.9",True,fulltext
+40771372,9,imaging,int_ext,0.76,0.658,0.861,0.748,0.659,0.837,1,The radiomics models demonstrated area under the curve (AUC) values of 0.760 in internal validation ,True,fulltext
+40800203,8,combined,int_ext,0.823,0.674,0.973,0.804,0.637,0.971,1,RESULTS: The combination of the least absolute shrinkage and selection operator (LASSO) and logistic,True,fulltext
+40893508,10,combined,int_ext,0.899,0.83,0.968,0.963,0.929,0.996,1,"By combining the PCrad-score and LHrad-score with clinically independent predictors, the nomogram yi",True,fulltext
+40900897,7,combined,int_ext,0.864,0.794,0.933,0.815,0.715,0.914,1,"RESULTS: The combined model achieved superior diagnostic performance, with AUC values of 0.895, 0.86",True,fulltext
+41184857,12,combined,int_ext,0.82,0.67,0.92,0.74,0.59,0.86,1,While integrating radiomic features with PLR/PAR enhanced identification performance in the training,True,fulltext
+41188459,9,imaging,int_ext,0.79,0.67,0.8,0.85,0.68,0.98,1,The radiomics model demonstrated comparable performance to clinical models in the internal validatio,True,fulltext
+41209246,13,combined,int_ext,0.905,0.8364,0.9727,0.823,0.7402,0.9062,1,"The combined model demonstrated the highest performance, with AUC values of 0.963, 0.905, and 0.823 ",True,fulltext
+41212337,7,combined,int_ext,0.967,0.911,1.0,0.764,0.511,1.0,1,"The combined model demonstrated excellent performance, achieving an AUC of 0.967 in the validation s",True,fulltext
+41229844,13,combined,int_ext,0.849,0.775,0.922,0.957,0.921,0.993,1,"The AUC values for the radiomic nomogram were 0.974 in the training set, 0.849 in the internal valid",True,fulltext
+41254516,13,imaging,int_ext,0.739,0.584,0.895,0.665,0.547,0.783,1,"Among the compared models, logistic regression performed best, with the Area Under the Curve (AUC) v",True,fulltext
+41291499,14,imaging,int_ext,0.797,0.737,0.851,0.76,0.636,0.864,1,"The radiomic model demonstrated the area under the curve values of 0.797, 0.786, and 0.760 in the in",True,fulltext
+41357595,10,combined,int_ext,0.858,0.755,0.962,0.84,0.728,0.952,1,"The AUCs of the combined nomogram were 0.848, 0.858, and 0.840 in the training, internal test, and e",True,fulltext
+41367757,8,combined,int_ext,0.87,0.814,0.927,0.861,0.803,0.919,1,RESULTS: The integrated model achieved robust discrimination between benign and malignant BI-RADS 4A,True,fulltext
+41376342,10,combined,int_ext,0.98,0.97,0.99,0.91,0.85,0.96,1,"Using the Light Gradient Boosting Machine classifier, the combined model demonstrated the highest pr",True,fulltext
+41423690,8,imaging,int_ext,0.835,0.711,0.958,0.828,0.736,0.921,1,"The optimal radiomics model was constructed based on VMI 40 keV, demonstrating AUCs of 0.899, 0.835,",True,fulltext
+41445791,8,combined,int_ext,0.913,0.867,0.953,0.914,0.83,0.975,1,"The combined model demonstrated the best performance, with the LR combined model achieving AUC value",True,fulltext
+41501710,10,imaging,int_ext,0.934,0.911,0.958,0.905,0.878,0.931,1,"The internal validation set showed an AUC of 0.934, and the external set an AUC of 0.905.",True,fulltext
+41648663,9,combined,int_ext,0.819,0.749,0.888,0.868,0.765,0.97,1,The combined model demonstrated superior performance compared with both the radiomic model and the t,True,fulltext
+41667992,8,combined,int_ext,0.85,0.772,0.928,0.852,0.777,0.927,1,"RESULTS: For the binary classification of IDH mutation status, the stacking model integrating radiom",True,fulltext
+41691278,7,combined,int_ext,0.834,0.778,0.891,0.819,0.776,0.863,1,"RESULTS: The Stacking model achieved area under the curve (AUC) values of 0.883, 0.834, and 0.819 in",True,fulltext
+41761127,9,combined,int_ext,0.854,0.779,0.928,0.803,0.732,0.873,1,RESULTS: The logistic regression-based nomogram incorporating three radiomic signatures and two clin,True,fulltext
+41827086,8,combined,int_ext,0.799,0.77,0.828,0.632,0.521,0.743,1,"The AUCs of the fusion model were 0.887 in the training cohort, 0.799 in the test cohort, and 0.763,",True,fulltext
+41924546,6,combined,int_ext,0.761,0.642,0.88,0.723,0.625,0.821,1,"RESULTS: For predicting VETC and/or MVI (defined as VM patterns), the combined model achieved area u",True,fulltext
+41987267,9,combined,int_ext,0.81,0.68,0.95,0.82,0.72,0.91,1,"The Area Under the Curve (AUC) values for the clinical, radiomics, and combined models, respectively",True,fulltext
+42023241,11,imaging,int_ext,0.75,0.65,0.81,0.76,0.73,0.88,1,"After fine-tuning on immunotherapy data, the immunotherapy-adapted model achieved improved performan",True,fulltext
+42036487,8,combined,int_ext,0.875,0.769,0.982,0.813,0.68,0.946,1,"The LightGBM-based Rad-score was combined with independent clinical predictors (ECOG Score, blood su",True,fulltext
+42104301,9,imaging,int_ext,0.857,0.77,0.935,0.873,0.794,0.938,1,"The AUC of the radiopathomics model was 0.887, 0.857, and 0.873 in the training, internal validation",True,fulltext
+42125887,11,combined,int_ext,0.952,0.843,1.0,0.91,0.859,0.954,1,"This integrated model exhibited a superior performance (area under the curve (AUC) = 0.901, 0.952, a",True,fulltext
+42129487,10,imaging,int_ext,0.831,0.711,0.931,0.734,0.571,0.874,1,"HER2-zero), it achieved an AUC of 0.839 in the training cohort, 0.831 in the internal testing cohort",True,fulltext
+42147917,9,combined,int_ext,0.948,0.916,0.979,0.942,0.905,0.978,1,The fusion models consistently outperformed all the single-modality models: the Combined (ABVS) mode,True,fulltext
+42291584,7,combined,int_ext,0.775,0.629,0.894,0.778,0.642,0.911,1,"The model combining PET radiomic features and whole-body metabolic tumor volume (MTVwb), termed the ",True,fulltext
+42369047,6,combined,int_ext,0.913,0.847,0.98,0.886,0.805,0.967,1,"RESULTS: The fusion model demonstrated the best overall performance, achieving areas under the ROC c",True,fulltext
+42444850,9,imaging,int_ext,0.942,0.8783,1.0,0.844,0.7234,0.9648,1,"The GTRCT-based prediction model achieved area under the curve (AUC) of 0.943, 0.942, and 0.844 in t",True,fulltext
+42460993,8,combined,int_ext,0.827,0.755,0.899,0.77,0.675,0.864,1,RESULTS: The intratumoral+peritumoral 1 mm radiomic model based on arterial-venous phase fusion had ,True,fulltext
+42495950,4,combined,int_ext,0.847,0.773,0.922,0.831,0.73,0.933,1,"The Vit b/16 nomogram excelled in predicting 3-year GRAEFS, with AUCs of 0.951, 0.847, and 0.831 in ",True,fulltext
+42620817,8,combined,int_ext,0.994,0.989,0.999,0.875,0.811,0.939,1,"RESULTS: The radiomics-ViT fusion model demonstrated excellent performance, with an AUC of 0.994 in ",True,fulltext
+42696074,5,imaging,int_ext,0.804,0.694,0.913,0.772,0.633,0.912,1,"RESULTS: The optimal radiomics model, comprising features from ID in VP and Zeff in both AP and VP, ",True,fulltext
+42729016,11,imaging,int_ext,0.838,0.733,0.942,0.76,0.594,0.926,1,"The habitat model achieved AUCs of 0.870, 0.838, and 0.760 in the training, internal test, and exter",True,fulltext
+42791956,5,imaging,int_ext,0.74,0.697,0.776,0.763,0.73,0.8,1,"The established SVM radiomic model yielded stable discriminatory performance, with an area under the",True,fulltext
+42819283,11,combined,int_ext,0.894,0.816,0.961,0.869,0.811,0.921,1,"The combined model achieved AUCs of 0.896, 0.894, and 0.869 in the training, internal validation, an",True,fulltext
+42835801,10,combined,int_ext,0.818,0.74,0.914,0.768,0.66,0.876,1,The fusion model combining DCE-MRI intra- and peritumoral (5 mm) features with Fs-T2WI intratumoral ,True,fulltext
+42861264,8,imaging,int_ext,0.839,0.817,0.861,0.865,0.822,0.909,1,RESULTS: M1 yielded an AUC of 0.839 in the internal cohort and 0.865 in the overall external cohort.,True,fulltext
+42887293,8,combined,int_ext,0.981,0.944,1.0,0.971,0.886,1.0,1,"Favorable performance was observed in the internal validation set (nomogram: AUC = 0.981, 95% CI: 0.",True,fulltext
+43004192,9,imaging,int_ext,0.777,0.645,0.878,0.776,0.637,0.881,1,"RESULTS: The radiomic model achieved area under the curve (AUC) values of 0.809, 0.777, and 0.776 in",True,fulltext
